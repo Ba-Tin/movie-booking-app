@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none !important;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+:root {
+  --text-color: #fdffff;
+  --text: #787878;
+  --bg-color: #151515;
+  --bg-color-menu: #262626;
+  --bg-orange: #ff6e00;
+
+  --bg-blue: #2f3349;
+  --text-admin: #838cd1;
+}
+
+body {
+  overflow-x: hidden;
+}
