@@ -20,36 +20,37 @@ export default {
         return {
             navs: [
                 {
+
                     id: 1,
-                    icon: 'icon-chervoright.svg',
+                    icon: 'bx bx-chevron-right',
                     text: "Trang chủ",
                     to: '/',
                     className: "customer-client"
                 },
                 {
                     id: 2,
-                    icon: 'icon-chervoright.svg',
+                    icon: 'bx bx-chevron-right',
                     text: "Phim",
                     to: '/movie',
                     className: "customer-client"
                 },
                 {
                     id: 3,
-                    icon: 'icon-chervoright.svg',
+                    icon: 'bx bx-chevron-right',
                     text: "Lịch chiếu",
                     to: '/schedulemovie',
                     className: "customer-client"
                 },
                 {
                     id: 4,
-                    icon: 'icon-chervoright.svg',
+                    icon: 'bx bx-chevron-right',
                     text: "Tin tức",
                     to: '/newfeed',
                     className: "customer-client"
                 },
                 // {
                 //     id: 5,
-                //     icon: 'icon-chervoright.svg',
+                //     icon: 'bx bx-chevron-right',
                 //     text: "Liên Hệ",
                 //     to: '/lienhe',
                 //     className: "customer-client"

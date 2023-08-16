@@ -4,7 +4,7 @@
             <menu-client/>
         </div>
         <div class="col-sm-9 main-admin">
-            <div class="container p-4 rounded-5 ">
+            <div class="w-100">
                 <router-view/>
             </div>
         </div>
@@ -31,5 +31,6 @@ export default {
 
 .main-admin {
     background: #25293c;
+    padding-left: 0 !important;
 }
 </style>
