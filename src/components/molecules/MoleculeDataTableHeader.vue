@@ -3,10 +3,10 @@
         <atom-title :text="datas.title"/>
         <atom-table :data = "datas.tableData" :columns ="datas.tableColumns">
                 <AtomButton className="customer-btn">
-                    <AtomIcon  icon="icon-edit.svg" alt="icon-search"/>
+                    <AtomIcon  name="bx bxs-edit"/>
                 </AtomButton>
                 <AtomButton className="customer-btn">
-                    <AtomIcon icon="icon-delete.svg" alt="icon-delete"/>
+                    <AtomIcon name="bx bxs-trash"/>
                 </AtomButton>
         </atom-table>
     </div>
@@ -29,5 +29,19 @@ export default {
 .customer-btn {
     background: var(--bg-blue);
     margin-right: 1rem
+}
+
+.bxs-edit,
+.bxs-trash {
+    font-size: 1.25rem;
+    color: #a4a8c3;
+}
+
+.bxs-edit:hover {
+    color: var(--text-color);
+}
+
+.bxs-trash:hover {
+    color: var(--text-color);
 }
 </style>

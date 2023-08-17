@@ -1,10 +1,10 @@
 <template lang="">
-            <atom-icon :icon="nav.icon" :name="nav.text" />
+            <atom-icon :name="nav.icon" />
             <atom-link :text="nav.text" :to="nav.to" :className="nav.className"/>
 </template>
 <script>
-import AtomIcon from '../atoms/AtomIcon.vue';
-import AtomLink from '../atoms/AtomLink.vue';
+
+import { AtomLink, AtomIcon } from '../atoms/';
 export default {
     data() {
         return {
