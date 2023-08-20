@@ -1,12 +1,12 @@
 <template lang="">
-        <button :type="typeName" :class="className">
+        <button :class="className">
          <slot/>
         </button>
 </template>
 <script>
 export default {
     props: {
-        type: { type: String, required: true },
+
         className: { type: String, required: true },
     }
 }

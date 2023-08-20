@@ -1,18 +1,13 @@
 <template lang="">
-    <div>
         <atom-title :text="datas.title"/>
+            <slot name="button-add"/>
         <atom-table :data = "datas.tableData" :columns ="datas.tableColumns">
-                <AtomButton className="customer-btn">
-                    <AtomIcon  name="bx bxs-edit"/>
-                </AtomButton>
-                <AtomButton className="customer-btn">
-                    <AtomIcon name="bx bxs-trash"/>
-                </AtomButton>
+           <slot name="button-action"/>
         </atom-table>
-    </div>
 </template>
 <script>
-import { AtomTitle, AtomTable, AtomIcon, AtomButton } from '../atoms';
+import { AtomTitle, AtomTable } from '../atoms';
+
 export default {
     props: {
         datas: { type: Object, required: true }
@@ -20,17 +15,10 @@ export default {
     components: {
         AtomTitle,
         AtomTable,
-        AtomIcon,
-        AtomButton
     }
 }
 </script>
 <style lang="css" scoped>
-.customer-btn {
-    background: var(--bg-blue);
-    margin-right: 1rem
-}
-
 .bxs-edit,
 .bxs-trash {
     font-size: 1.25rem;

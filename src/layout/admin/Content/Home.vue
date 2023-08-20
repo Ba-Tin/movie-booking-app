@@ -1,10 +1,10 @@
 <template lang="">
-   <div class="customer-home"  v-for="(item,index) in table" :key="index">
-      <MoleculeDataTableHeader :datas="item"/>
+   <div class="customer-home" v-for="(item,index) in table" :key="index">
+      <OrganismDataTable :datas="item"/>
    </div>
 </template>
 <script>
-import MoleculeDataTableHeader from '@/components/molecules/MoleculeDataTableHeader.vue';
+import OrganismDataTable from '@/components/organisms/OrganismDataTable.vue';
 export default {
    data() {
       return {
@@ -45,8 +45,8 @@ export default {
       };
    },
    components: {
-      MoleculeDataTableHeader
-   }
+      OrganismDataTable
+   },
 }
 
 </script>

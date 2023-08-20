@@ -48,8 +48,4 @@ export default {
     }
 }
 </script>
-<style lang="css" scoped>
-.carousel-inner {
-    border-radius: 1rem;
-}
-</style>
+<style lang="css" scoped></style>
