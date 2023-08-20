@@ -4,15 +4,8 @@
             <atom-logo />
         </div>
         <div v-for="nav in navs" :key="nav.id">
-            <div @click="selectMenuItem(nav)" :class="{ 'nav-admin': true, 'active-admin': isActive(nav.to) }">
+            <div :class="{ 'nav-admin': true, 'active-admin': isActive(nav.to) }">
                 <MoleculeNavItem :nav="nav" />
-            </div>
-            <div class="px-4" v-if="selectedMenuItem === nav">
-                <div v-for="childItem in nav.children" :key="childItem.id">
-                    <div :class="{ 'nav-admin': true, 'active-admin': isActive(childItem.to) }">
-                        <MoleculeNavItem :nav="childItem" />
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -34,71 +27,40 @@ export default {
                 },
                 {
                     id: uuidv4(),
-                    icon: 'icon-discovery.svg',
-                    text: "Discovery",
-                    to: '/admin/discovery',
+                    icon: 'bx bxs-user',
+                    text: "Quản lý người dùng",
+                    to: '/admin/user',
                     className: "customer-admin",
-                    children: [
-                        {
-                            id: uuidv4(),
-                            text: "Child Item 1",
-                            className: "customer-admin",
-                            to: "/admin/child1"
-                        },
-                        {
-                            id: uuidv4(),
-                            text: "Child Item 2",
-                            className: "customer-admin",
-                            to: "/admin/child2"
-                        }
-                    ]
                 },
                 {
                     id: uuidv4(),
-                    icon: 'icon-community.svg',
-                    text: "Community",
-                    to: '/admin/community',
+                    icon: 'bx bxs-camera-movie',
+                    text: "Danh sách rạp phim",
+                    to: '/admin/cinema',
                     className: "customer-admin",
-                    children: [
-                        {
-                            id: uuidv4(),
-                            text: "Child Item 1",
-                            className: "customer-admin",
-                            to: "/admin/child1"
-                        },
-                        {
-                            id: uuidv4(),
-                            text: "Child Item 2",
-                            className: "customer-admin",
-                            to: "/admin/child2"
-                        }
-                    ]
-
                 },
                 {
                     id: uuidv4(),
-                    icon: 'icon-clock.svg',
-                    text: "Comming Soon",
-                    to: '/admin/commingsoon',
+                    icon: 'bx bxs-camera-movie',
+                    text: "Danh sách cụm rạp",
+                    to: '/admin/cinemacomplex',
                     className: "customer-admin",
-                    children: [
-                        {
-                            id: uuidv4(),
-                            text: "Child Item 1",
-                            className: "customer-admin",
-                            to: "/admin/child1"
-                        },
-                        {
-                            id: uuidv4(),
-                            text: "Child Item 2",
-                            className: "customer-admin",
-                            to: "/admin/child2"
-                        }
-                    ]
-
+                },
+                {
+                    id: uuidv4(),
+                    icon: 'bx bxs-movie',
+                    text: "Danh sách phim",
+                    to: '/admin/movie',
+                    className: "customer-admin",
+                },
+                {
+                    id: uuidv4(),
+                    icon: 'bx bxs-calendar',
+                    text: "Lịch chiếu",
+                    to: '/admin/schedule',
+                    className: "customer-admin",
                 },
             ],
-            selectedMenuItem: null
         };
     },
     components: {
@@ -109,11 +71,6 @@ export default {
         isActive(to) {
             return this.$route.path === to;
         },
-        selectMenuItem(nav) {
-            if (nav.children && nav.children.length > 0) {
-                this.selectedMenuItem = this.selectedMenuItem === nav ? null : nav;
-            }
-        }
     }
 };
 </script>

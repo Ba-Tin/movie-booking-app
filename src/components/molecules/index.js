@@ -1,7 +1,8 @@
 export { default as MoleculeNavItem } from "./MoleculeNavItem.vue";
-export { default as MoleculesSearch } from "./MoleculesSearch.vue";
-export { default as MoleculeDataTableHeader } from "./MoleculeDataTableHeader.vue";
+export { default as MoleculeButtonIcon } from "./MoleculeButtonIcon.vue";
 export { default as MoleculeSlider } from "./MoleculeSlider.vue";
+export { default as MoleculeModalHeader } from "./MoleculeModalHeader.vue";
+export { default as MoleculeModalFooter } from "./MoleculeModalFooter.vue";
 
 
 

@@ -1,5 +1,5 @@
 export default {
-    setName(state, name) {
-        state.name = name;
+    setShowModal(state, value) {
+        state.showModal = value;
     }
 }

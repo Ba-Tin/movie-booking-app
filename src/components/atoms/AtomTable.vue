@@ -1,11 +1,13 @@
 <template lang="">
     <table class="table table-hover table-bordered">
        <thead>
+          <th>STT</th>
           <th v-for="column in columns" :key="column.id">{{ column.label }}</th>
           <th>Actions </th>
       </thead>
       <tbody>
-        <tr v-for="item in data" :key="item.id">
+        <tr v-for="(item,index) in data" :key="item.id">
+             <td>{{ index + 1 }}</td>
            <td v-for="column in columns" :key="column.key">{{ item[column.key] }}</td>
             <td>
               <slot/>

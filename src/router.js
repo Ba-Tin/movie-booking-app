@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router"
 import MainAdmin from "./layout/admin/MainAdmin/MainAdmin.vue"
 import MainClient from "./layout/client/MainClient/MainClient.vue"
-import { CommingSoon, Community, Discovery, HomeAdmin } from "./layout/admin/Content"
+import { Cinema, User, Schedule, MovieAdmin, HomeAdmin, CinemaComplex } from "./layout/admin/Content"
 import { Home, Movie, ScheduleMovie, NewFeed } from "./layout/client/Content"
 
 const routes = [
@@ -14,16 +14,24 @@ const routes = [
                 component: HomeAdmin,
             },
             {
-                path: "/admin/discovery",
-                component: Discovery,
+                path: "/admin/user",
+                component: User,
             },
             {
-                path: "/admin/community",
-                component: Community,
+                path: "/admin/cinema",
+                component: Cinema,
             },
             {
-                path: "/admin/commingSoon",
-                component: CommingSoon,
+                path: "/admin/cinemacomplex",
+                component: CinemaComplex,
+            },
+            {
+                path: "/admin/movie",
+                component: MovieAdmin,
+            },
+            {
+                path: "/admin/schedule",
+                component: Schedule,
             },
         ],
 

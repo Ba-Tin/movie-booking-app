@@ -19,5 +19,10 @@ export default {
 <style lang="css" scoped>
 i {
     color: var(--text-color);
+    font-size: 2rem;
+}
+
+.icon-close {
+    color: black
 }
 </style>

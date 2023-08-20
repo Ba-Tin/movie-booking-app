@@ -1,5 +1,5 @@
 export default {
-    updateProfile({ commit }) {
-        commit('setName', "Nguyên bá Tín")
+    setShowModal({ commit }, value) {
+        commit('setShowModal', value)
     }
 }
