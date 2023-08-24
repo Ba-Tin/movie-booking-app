@@ -1,9 +1,9 @@
 <template lang="">
-    <OrganismModal :titleName="formTitle" buttonAction="Thêm" :onSubmit="handleSave">
+   <OrganismModal titleName="Thêm cụm rạp" buttonAction="Thêm" :onSubmit="handleSave">
         <template #form-modal> 
                 <div class="form-group">
-                    <label for="title">Tên rạp</label>
-                    <input type="text" class="form-control" id="title" placeholder="Tên phim">
+                    <label for="title">Tên cụm rạp</label>
+                    <input type="text" class="form-control" id="title" placeholder="Tên cụm rạp">
                 </div>
         </template>
     </OrganismModal>
@@ -11,19 +11,14 @@
 <script>
 import { OrganismModal } from "@/components/organisms";
 export default {
-    data() {
-        return {
-            formTitle: "Thêm",
-        }
-    },
     components: {
         OrganismModal
     },
     methods: {
         handleSave() {
-            console.log("hello");
+            console.log("hello nè")
         }
-    },
+    }
 }
 </script>
 <style lang="">

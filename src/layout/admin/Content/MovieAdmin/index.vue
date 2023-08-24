@@ -2,22 +2,27 @@
     <div v-for="(item,index) in table" :key="index">
         <OrganismDataTable :datas="item">
          <template v-slot:button-add>
-            <atom-button className="btn-add">Thêm</atom-button>
+            <atom-button className="btn-add" @click="toggleModal" typeName="button">Thêm</atom-button>
             <div class="py-4">
                 <input type="text" class="p-2 rounded" placeholder="Tìm kiếm"/>
             </div>
         </template>
         <template v-slot:button-action="{ row }">
-            <MoleculeButtonIcon :row="row" className="customer-btn"  iconName="bx bxs-edit"/>
-            <MoleculeButtonIcon :row="row" className="customer-btn" iconName="bx bxs-trash"/>
+            <MoleculeButtonIcon :row="row" typeName="button" className="customer-btn"  iconName="bx bxs-edit"/>
+            <MoleculeButtonIcon :row="row" typeName="button" className="customer-btn" iconName="bx bxs-trash"/>
         </template>
      </OrganismDataTable>
+     <movie-form v-if="showModal"/>
    </div>
 </template>
 <script>
 import OrganismDataTable from '@/components/organisms/OrganismDataTable.vue';
 import { MoleculeButtonIcon } from '@/components/molecules';
-import { AtomButton } from '@/components/atoms'
+import { AtomButton } from '@/components/atoms';
+import MovieForm from './MovieForm.vue';
+// import { mapState } from 'vuex';
+import modalMixin from '@/mixin/modalMixin'
+
 export default {
     data() {
         return {
@@ -42,17 +47,10 @@ export default {
         }
     },
     components: {
-        OrganismDataTable, AtomButton, MoleculeButtonIcon
+        OrganismDataTable, AtomButton, MoleculeButtonIcon, MovieForm
     },
+    mixins: [modalMixin],
 
 }
 </script>
-<style lang="css" scoped>
-.btn-add {
-    background: #7367f0;
-    color: #fff;
-    padding: 0.5rem 2rem;
-    margin-top: 1rem;
-    border-radius: 10px;
-}
-</style>
+<style lang="css" scoped></style>

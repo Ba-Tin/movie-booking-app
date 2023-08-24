@@ -23,3 +23,11 @@
 body {
   overflow-x: hidden;
 }
+
+.btn-add {
+  background: #7367f0;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+}

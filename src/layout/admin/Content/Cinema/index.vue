@@ -2,21 +2,29 @@
     <div v-for="(item,index) in table" :key="index">
       <OrganismDataTable :datas="item">
          <template v-slot:button-add>
-            <atom-button className="btn-add" @click="closeModal">Thêm</atom-button>
-            <div class="py-4">
-                <input type="text" class="p-2 rounded" placeholder="Tìm kiếm"/>
-            </div>
+        <div class="form-group mt-4">
+            <atom-button className="btn-add" typeName="button" @click="toggleModal">Thêm</atom-button>
+            <select class="p-2 rounded ml-4" id="exampleFormControlSelect1">
+                <option>Chọn cụm rạp</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+        <div class="py-4">
+            <input type="text" class="p-2 rounded" placeholder="Tìm kiếm"/>
+        </div>
         </template>
         <template v-slot:button-action="{ row }">
-            <MoleculeButtonIcon :row="row" className="customer-btn"  iconName="bx bxs-edit"/>
-            <MoleculeButtonIcon :row="row" className="customer-btn" iconName="bx bxs-trash"/>
+            <MoleculeButtonIcon :row="row" typeName="button" className="customer-btn"  iconName="bx bxs-edit"/>
+            <MoleculeButtonIcon :row="row" typeName="button" className="customer-btn" iconName="bx bxs-trash"/>
         </template>
      </OrganismDataTable>
    </div>
    <cinema-form v-if="showModal"/>
 </template>
 <script>
-import { mapState } from 'vuex';
 import { OrganismDataTable } from '@/components/organisms';
 import { MoleculeButtonIcon } from '@/components/molecules';
 import { AtomButton } from '@/components/atoms';
@@ -48,20 +56,9 @@ export default {
     components: {
         OrganismDataTable, AtomButton, MoleculeButtonIcon, CinemaForm
     },
-    computed: {
-        ...mapState(['showModal'])
-    },
     mixins: [modalMixin],
 
 
 }
 </script>
-<style lang="css" scoped>
-.btn-add {
-    background: #7367f0;
-    color: #fff;
-    padding: 0.5rem 2rem;
-    margin-top: 1rem;
-    border-radius: 10px;
-}
-</style>
+<style lang="css" scoped></style>
