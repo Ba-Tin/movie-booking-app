@@ -6,9 +6,8 @@ export default {
     },
     methods: {
         ...mapActions(['setShowModal']),
-        closeModal() {
+        toggleModal() {
             this.setShowModal(!this.showModal);
-            console.log("hello");
         },
     }
 

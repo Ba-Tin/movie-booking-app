@@ -3,7 +3,7 @@
         <h4 class="modal-title">
             {{title}}
         </h4>
-        <MoleculeButtonIcon className="bg-white" @click="closeModal" iconName="bx bx-x icon-close">Hủy bỏ</MoleculeButtonIcon>
+        <MoleculeButtonIcon typeName="button" className="bg-white" @click="toggleModal" iconName="bx bx-x icon-close">Hủy bỏ</MoleculeButtonIcon>
     </div>
 </template>
 <script>

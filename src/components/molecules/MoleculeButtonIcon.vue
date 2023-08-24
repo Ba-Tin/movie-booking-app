@@ -1,5 +1,5 @@
 <template lang="">
-  <AtomButton :className="className"> 
+  <AtomButton :className="className" :typeName="typeName"> 
     <AtomIcon :name="iconName" />
   </AtomButton>
 </template>
@@ -13,6 +13,7 @@ export default {
   props: {
     className: String,
     iconName: String,
+    typeName: String
   },
 }
 </script>
