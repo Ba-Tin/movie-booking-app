@@ -31,3 +31,6 @@ body {
   margin-top: 1rem;
   border-radius: 10px;
 }
+i {
+  color: var(--text-color);
+}

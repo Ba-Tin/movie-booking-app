@@ -10,14 +10,4 @@ export default {
     },
 }
 </script>
-<style lang="css" scoped>
-.customer-admin {
-    color: var(--text-color);
-    margin-left: 0.5rem;
-}
-
-.customer-client {
-    color: var(--text-color);
-    text-transform: uppercase;
-}
-</style>
+<style lang="css" scoped></style>

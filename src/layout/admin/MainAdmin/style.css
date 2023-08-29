@@ -1,0 +1,11 @@
+.navbar-custom {
+  background: var(--bg-blue);
+}
+
+.main-custom {
+  height: 100vh;
+}
+
+.main-admin {
+  background: #25293c;
+}

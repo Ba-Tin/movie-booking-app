@@ -3,7 +3,7 @@
         <h4 class="modal-title">
             {{title}}
         </h4>
-        <MoleculeButtonIcon typeName="button" className="bg-white" @click="toggleModal" iconName="bx bx-x icon-close">Hủy bỏ</MoleculeButtonIcon>
+        <MoleculeButtonIcon typeName="button" className="bg-white" @click="toggleModal" iconName="bx bx-x text-body h2">Hủy bỏ</MoleculeButtonIcon>
     </div>
 </template>
 <script>
@@ -19,9 +19,4 @@ export default {
     mixins: [modalMixin],
 }
 </script>
-<style lang="css" scoped>
-.customer-icon {
-    color: black;
-    font-size: 2rem;
-}
-</style>
+<style lang="css" scoped></style>

@@ -1,3 +1,6 @@
 export default {
-    showModal: false
+    showModal: false,
+
+    // state Movies
+    movies: [],
 }
