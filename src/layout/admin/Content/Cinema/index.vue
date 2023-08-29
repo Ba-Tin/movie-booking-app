@@ -17,8 +17,8 @@
         </div>
         </template>
         <template v-slot:button-action="{ row }">
-            <MoleculeButtonIcon :row="row" typeName="button" className="customer-btn"  iconName="bx bxs-edit"/>
-            <MoleculeButtonIcon :row="row" typeName="button" className="customer-btn" iconName="bx bxs-trash"/>
+            <MoleculeButtonIcon :row="row" typeName="button" className="customer-btn"  iconName="bx bxs-edit h2"/>
+            <MoleculeButtonIcon :row="row" typeName="button" className="customer-btn" iconName="bx bxs-trash h2"/>
         </template>
      </OrganismDataTable>
    </div>

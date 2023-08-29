@@ -1,0 +1,29 @@
+.nav-client {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  margin-top: 0.25rem;
+}
+
+.active-client {
+  background: var(--bg-orange);
+  border-radius: 8px;
+}
+
+.nav-btn {
+  display: flex;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.customer-btn {
+  text-align: left;
+  background: var(--bg-orange);
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+  color: var(--text-color);
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 1rem;
+}

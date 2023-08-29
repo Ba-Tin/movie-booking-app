@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router"
 import MainAdmin from "./layout/admin/MainAdmin/MainAdmin.vue"
 import MainClient from "./layout/client/MainClient/MainClient.vue"
 import { Cinema, User, Schedule, MovieAdmin, HomeAdmin, CinemaComplex } from "./layout/admin/Content"
-import { Home, Movie, ScheduleMovie, NewFeed } from "./layout/client/Content"
+import { Home, Movies, ScheduleMovie, NewFeed } from "./layout/client/Content"
 
 const routes = [
     {
@@ -45,8 +45,8 @@ const routes = [
                 component: Home,
             },
             {
-                path: "/movie",
-                component: Movie,
+                path: "/movies",
+                component: Movies,
             },
             {
                 path: "/schedulemovie",

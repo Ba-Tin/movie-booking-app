@@ -1,0 +1,12 @@
+.navbar-custom {
+  background: var(--bg-color);
+}
+
+.main-custom {
+  height: 100vh;
+}
+
+.main-client {
+  background: #25293c;
+  padding-left: 0 !important;
+}

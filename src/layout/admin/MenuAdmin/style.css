@@ -1,0 +1,9 @@
+.nav-admin {
+  padding: 0.5rem 1rem;
+  margin-top: 0.25rem;
+}
+
+.active-admin {
+  background: #7367f0;
+  border-radius: 4px;
+}
