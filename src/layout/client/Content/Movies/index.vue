@@ -8,7 +8,7 @@
                 {{ tab.name }}
             </p>
         </div>
-        <div class="d-flex flex-wrap movies-container">
+        <div class="d-flex flex-wrap movies-container py-5">
                <template v-for="movie in activeTabMovies" :key="movie.id">
                     <MoleculeMovieCard :movieData="movie"  />
                 </template>

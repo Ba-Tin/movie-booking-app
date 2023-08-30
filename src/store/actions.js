@@ -13,4 +13,13 @@ export default {
             console.error('Error', error);
         }
     },
+    //get Movie By id
+    async getMovieById({ commit }, id) {
+        try {
+            const response = await axios.get(`http://localhost:3000/movies/${id}`);
+            commit('setMovieDetail', response?.data);
+        } catch (error) {
+            console.error('Error', error);
+        }
+    },
 }

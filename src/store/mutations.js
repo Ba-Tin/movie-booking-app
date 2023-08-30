@@ -5,5 +5,8 @@ export default {
     //setMovie
     setMovies(state, movie) {
         state.movies = movie;
+    },
+    setMovieDetail(state, value) {
+        state.movieDetail = value;
     }
 }

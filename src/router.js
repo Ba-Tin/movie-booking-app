@@ -2,7 +2,8 @@ import { createRouter, createWebHistory } from "vue-router"
 import MainAdmin from "./layout/admin/MainAdmin/MainAdmin.vue"
 import MainClient from "./layout/client/MainClient/MainClient.vue"
 import { Cinema, User, Schedule, MovieAdmin, HomeAdmin, CinemaComplex } from "./layout/admin/Content"
-import { Home, Movies, ScheduleMovie, NewFeed } from "./layout/client/Content"
+import { MovieDetail, ScheduleMovie, NewFeed } from "./layout/client/Content";
+import { MoleculeNotFound } from "@/components/molecules"
 
 const routes = [
     {
@@ -42,11 +43,15 @@ const routes = [
         children: [
             {
                 path: "/",
-                component: Home,
+                component: () => import(/* webpackChunkName: "home" */ "@/layout/client/Content/Home"),
             },
             {
                 path: "/movies",
-                component: Movies,
+                component: () => import(/* webpackChunkName: "movies" */ "@/layout/client/Content/Movies"),
+            },
+            {
+                path: "/movies/:id",
+                component: MovieDetail,
             },
             {
                 path: "/schedulemovie",
@@ -58,6 +63,10 @@ const routes = [
             },
         ],
 
+    },
+    {
+        path: "/:pathMatch(.*)*",
+        component: MoleculeNotFound,
     }
 
 

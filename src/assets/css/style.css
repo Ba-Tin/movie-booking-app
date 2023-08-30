@@ -9,7 +9,9 @@
   scroll-behavior: smooth;
   list-style: none;
 }
-
+p {
+  margin: 0;
+}
 :root {
   --text-color: #fdffff;
   --text: #787878;

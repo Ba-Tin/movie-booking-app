@@ -1,0 +1,143 @@
+.showtimes-movies {
+  padding: 1rem 0;
+}
+.cinema-logo {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+}
+.cinema-logo img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background: #cdcdcd;
+  opacity: 0.7;
+}
+.cinema-logo img:first-child {
+  opacity: 1 !important;
+  border: 4px solid var(--text-color) !important;
+}
+.showtimes-cinema {
+  display: flex;
+  border-radius: 4px;
+  background: var(--text-color);
+  margin: 0 2rem;
+  padding: 1rem 1.5rem 2rem 1rem;
+}
+.local-detail {
+  display: flex;
+  border-bottom: 1px solid #84ba5b;
+  padding: 1rem 0rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+.local-cinema {
+  width: 27%;
+}
+.local-cinema img {
+  width: 5rem;
+  height: 5rem;
+}
+.address-cinema-items {
+  padding: 0 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cinema-name {
+  color: #84ba5b;
+  font-weight: 700;
+}
+.cinema-name span {
+  font-weight: bold;
+  color: var(--bg-color) !important;
+}
+.address-cinema {
+  font-weight: 500;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.date-cinema {
+  padding: 0 1rem;
+  border-right: 2px solid var(--text);
+  border-left: 2px solid var(--text);
+}
+.date-detail {
+  border-bottom: 1px solid #84ba5b;
+  text-align: center;
+  padding: 1rem 3rem;
+  white-space: nowrap;
+}
+.date-detail .day-cinema {
+  color: #84ba5b;
+
+  font-weight: 500;
+}
+.date-detail .month-cinema {
+  font-weight: 400;
+  color: #84ba5b;
+}
+.movies-cinema {
+  padding: 0 1rem;
+}
+.movie-item {
+  display: flex;
+  border-bottom: 1px solid var(--text);
+  margin-top: 1rem;
+}
+.moive-item .movie-img {
+  width: 55%;
+}
+.movie-item img {
+  width: 100%;
+}
+.movie-item:last-child {
+  border: none;
+}
+
+.movie-title p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--bg-color);
+}
+.movie-title p span {
+  color: var(--text-color);
+  background-color: var(--bg-orange);
+  border-radius: 50%;
+  height: 10rem;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+}
+.movie-sub {
+  margin-bottom: 2rem;
+}
+.movie-sub .cinema-2D {
+  background: #84ba5b;
+  border-radius: 3px;
+  padding: 0rem 0.75rem;
+
+  color: var(--text-color);
+  font-weight: 600;
+}
+.movie-sub .cinema-sub {
+  font-weight: 500;
+  margin-left: 1rem;
+  color: var(--bg-color);
+}
+.movies-detail {
+  margin-left: 1.8rem;
+  padding-top: 1rem;
+}
+.movie-times .show-time {
+  display: flex;
+  flex-wrap: wrap;
+}
+.movie-times ul li {
+  font-weight: 400;
+  border: 3px solid var(--bg-color);
+  border-radius: 4px;
+  padding: 0.2rem 0.5rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
