@@ -9,7 +9,7 @@
             </p>
         </div>
  
-                <Carousel :settings="settings" :breakpoints="breakpoints">
+                <Carousel class="py-5" :settings="settings" :breakpoints="breakpoints">
                 <slide  v-for="movie in activeTabMovies" :key="movie.id">
                     <MoleculeMovieCard 
                         :movieData="movie"/>

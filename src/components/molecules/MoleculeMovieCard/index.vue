@@ -13,13 +13,17 @@
                   </span>
             </div>
         </div>
-        <div class="overplay">
-          <i class="bx bx-play"></i>
-        </div>
+        <a :href="movieData.trailer" target="_blank">
+          <div class="overplay">
+            <i class="bx bx-play"></i>
+          </div>
+        </a>
             <!-- img slide -->
-        <div class="carousel-img">
-          <img :src="movieData?.image" class="d-block" alt="..." />
-        </div>
+        <router-link :to="'/movies/' + movieData.id">
+          <div class="carousel-img">
+            <img :src="movieData?.image" class="d-block" alt="..." />
+          </div>
+         </router-link>
         <div class="movie-info">
           <p class="movie-name">{{movieData?.filmName}}</p>
           <p class="movie-timer">130p - 3IMDb</p>
@@ -32,14 +36,16 @@
 </template>
 <script>
 import "./style.css";
-import { AtomIcon } from "@/components/atoms"
+import { AtomIcon } from "@/components/atoms";
+
 export default {
   props: {
     movieData: { type: Object, required: true }
   },
   components: {
     AtomIcon
-  }
+  },
+
 
 
 

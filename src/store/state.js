@@ -3,4 +3,5 @@ export default {
 
     // state Movies
     movies: [],
+    movieDetail: null
 }
