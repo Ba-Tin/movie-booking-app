@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-between;
   padding: 3rem;
+  cursor: pointer;
 }
 .cinema-logo img {
   width: 8rem;
@@ -13,7 +14,7 @@
   background: #cdcdcd;
   opacity: 0.7;
 }
-.cinema-logo img:first-child {
+.cinema-logo img.selected {
   opacity: 1 !important;
   border: 4px solid var(--text-color) !important;
 }
@@ -30,6 +31,10 @@
   padding: 1rem 0rem;
   margin-top: 1rem;
   margin-right: 1rem;
+  opacity: 0.7;
+}
+.local-detail.active-movie {
+  opacity: 1;
 }
 .local-cinema {
   width: 27%;
@@ -42,7 +47,9 @@
   padding: 0 1rem;
   overflow: hidden;
   text-overflow: ellipsis;
+  cursor: pointer;
 }
+
 .cinema-name {
   color: #84ba5b;
   font-weight: 700;
@@ -71,29 +78,28 @@
 }
 .date-detail .day-cinema {
   color: #84ba5b;
-
   font-weight: 500;
 }
 .date-detail .month-cinema {
   font-weight: 400;
   color: #84ba5b;
+  display: block;
 }
 .movies-cinema {
   padding: 0 1rem;
 }
 .movie-item {
   display: flex;
-  border-bottom: 1px solid var(--text);
   margin-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--text);
 }
 .moive-item .movie-img {
-  width: 55%;
+  width: 40rem;
 }
 .movie-item img {
-  width: 100%;
-}
-.movie-item:last-child {
-  border: none;
+  width: 10rem;
+  height: 17rem;
 }
 
 .movie-title p {
@@ -116,7 +122,6 @@
   background: #84ba5b;
   border-radius: 3px;
   padding: 0rem 0.75rem;
-
   color: var(--text-color);
   font-weight: 600;
 }

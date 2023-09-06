@@ -8,5 +8,10 @@ export default {
     },
     setMovieDetail(state, value) {
         state.movieDetail = value;
+    },
+
+    //showTimeMovie
+    setShowTimeMoves(state, movie) {
+        state.showTimeMovie = movie;
     }
 }

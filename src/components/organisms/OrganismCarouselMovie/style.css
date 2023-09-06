@@ -22,29 +22,6 @@
   text-align: start;
 }
 
-.carousel .bx.bx-chevron-right {
-  font-size: 46px;
-  padding-right: 20px;
-  color: white;
-  transition: all 0.4s ease-in-out;
-}
-
-.carousel .bx.bx-chevron-left {
-  font-size: 50px;
-  padding-left: 20px;
-  color: white;
-  transition: all 0.5s ease-in-out;
-}
-
-.carousel .bx.bx-chevron-right:hover,
-.carousel .bx.bx-chevron-left:hover {
-  transform: scale(1.4);
-}
-
-.carousel:hover .bx.bx-chevron-right,
-.carousel:hover .bx.bx-chevron-left {
-  transform: scale(1.4);
-}
 .customer__carousel {
   top: 40%;
 }

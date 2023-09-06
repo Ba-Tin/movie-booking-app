@@ -3,5 +3,8 @@ export default {
 
     // state Movies
     movies: [],
-    movieDetail: null
+    movieDetail: null,
+
+    //state showTimes-Movie
+    showTimeMovie: [],
 }

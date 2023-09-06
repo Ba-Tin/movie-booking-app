@@ -4,4 +4,6 @@ export { default as OrganismHomeSlider } from "./OrganismHomeSlider.vue";
 export { default as OrganismSearchMovie } from "./OrganismSearchMovie";
 export { default as OrganismCarouselMovie } from "./OrganismCarouselMovie";
 export { default as OrganismMovieDetail } from "./OrganismMovieDetail";
+export { default as OrganismsModalLogin } from "./OrganismsModalLogin";
+
 

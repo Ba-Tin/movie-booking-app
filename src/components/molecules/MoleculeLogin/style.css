@@ -1,0 +1,106 @@
+form {
+  background-color: rgb(0 0 0 / 38%);
+  border-radius: 5px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 30px 35px;
+}
+
+form * {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+
+form .title {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+form h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
+form input[type="text"],
+input[type="password"] {
+  display: block;
+  height: 35px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 300;
+  border: 1px solid #fff;
+}
+
+/* end form-login */
+
+.btn-login {
+  width: 100%;
+  background-color: #cfcfcf;
+  color: #fdfdfd;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.btn-login.btn-loading {
+  cursor: not-allowed;
+  background: rgb(45, 32, 186);
+}
+/* line-or */
+.or-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 2px;
+}
+
+.line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #5e5b5b;
+}
+
+.or {
+  margin: 0 10px;
+  color: #ffffff;
+}
+/* end line-or */
+
+/* social */
+.social-icon {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 60px;
+}
+.social-icon img {
+  width: 18px;
+  height: 18px;
+}
+.social-icon .icon {
+  background: #e0e2e3;
+  width: 36px;
+  height: 35px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* end social */

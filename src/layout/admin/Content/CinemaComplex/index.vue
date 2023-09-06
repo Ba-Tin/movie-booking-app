@@ -8,8 +8,8 @@
             </div>
         </template>
         <template v-slot:button-action="{ row }">
-            <MoleculeButtonIcon :row="row" typeName="button" className="customer-btn"   iconName="bx bxs-edit h2"/>
-            <MoleculeButtonIcon :row="row" typeName="button" className="customer-btn" iconName="bx bxs-trash h2"/>
+            <MoleculeButtonIcon :row="row" typeName="button" className="customer-btn"   iconName="edit"/>
+            <MoleculeButtonIcon :row="row" typeName="button" className="customer-btn" iconName="trash"/>
         </template>
      </OrganismDataTable>
    </div>

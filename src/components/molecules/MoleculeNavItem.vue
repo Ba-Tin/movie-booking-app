@@ -1,10 +1,10 @@
 <template lang="">
-            <atom-icon :name="nav.icon" />
+            <box-icon :name="nav.icon" color="white"></box-icon>
             <atom-link :text="nav.text" :to="nav.to" :className="nav.className"/>
 </template>
 <script>
 
-import { AtomLink, AtomIcon } from '../atoms/';
+import { AtomLink } from '../atoms/';
 export default {
     data() {
         return {
@@ -17,7 +17,7 @@ export default {
         },
     },
     components: {
-        AtomIcon,
+
         AtomLink
     },
 

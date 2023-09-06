@@ -5,17 +5,19 @@
           <div class="move-rating-detail">
               <span class="movie-rating-number">{{movieData?.rating === 0 ? 'Chưa có đánh giá' : movieData?.rating}}</span>
                 <span class="movie-rating-icon">
-                  <AtomIcon
+                 <box-icon
                     v-for="index in 5"
                     :key="index"
-                    :name="['bx', 'bxs-star', { 'text-warning': index <= movieData?.rating, 'text-secondary': index > movieData?.rating }]"
-                  ></AtomIcon>
+                    name="star"
+                    type="solid"
+                    color="orange"
+                  ></box-icon>
                   </span>
             </div>
         </div>
         <a :href="movieData.trailer" target="_blank">
           <div class="overplay">
-            <i class="bx bx-play"></i>
+            <box-icon name="play" color="white" size="sm"></box-icon>
           </div>
         </a>
             <!-- img slide -->
@@ -36,19 +38,12 @@
 </template>
 <script>
 import "./style.css";
-import { AtomIcon } from "@/components/atoms";
+
 
 export default {
   props: {
     movieData: { type: Object, required: true }
   },
-  components: {
-    AtomIcon
-  },
-
-
-
-
 }
 </script>
 <style lang="">

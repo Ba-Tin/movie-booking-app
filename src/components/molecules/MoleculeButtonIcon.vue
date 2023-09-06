@@ -1,14 +1,13 @@
 <template lang="">
   <AtomButton :className="className" :typeName="typeName"> 
-    <AtomIcon :name="iconName" />
+    <box-icon :name="iconName" size="lg"></box-icon>
   </AtomButton>
 </template>
 <script>
-import { AtomButton, AtomIcon } from '../atoms'
+import { AtomButton } from '../atoms'
 export default {
   components: {
     AtomButton,
-    AtomIcon
   },
   props: {
     className: String,

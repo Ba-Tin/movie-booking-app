@@ -3,7 +3,7 @@
 </template>
 
 <script>
-
+import 'boxicons';
 export default {
 
   name: 'App',

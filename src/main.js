@@ -8,7 +8,6 @@ import 'boxicons'
 import './assets/css/style.css'
 import router from './router'
 import "vue3-circle-progress/dist/circle-progress.css";
-
 import store from './store'
 
 

@@ -17,10 +17,10 @@
                 <template #addons>
                     <Navigation class="customer__carousel">
                         <template #next>
-                            <i class="bx bx-chevron-right"></i>
+                            <box-icon name="chevron-right" color="white" size="lg" border="circle"></box-icon>
                         </template>
                         <template #prev>
-                            <i class='bx bx-chevron-left'></i>
+                            <box-icon name='chevron-left' color="white" size="lg" border="circle"></box-icon>
                         </template>
                     </Navigation>
                 </template>
@@ -33,7 +33,8 @@
 <script>
 import './style.css'
 import { MoleculeMovieCard } from "../../molecules";
-import { Slide, Carousel, Navigation } from 'vue3-carousel'
+import { Slide, Carousel, Navigation } from 'vue3-carousel';
+
 import movies from "@/mixin/movies"
 export default {
     mixins: [movies],

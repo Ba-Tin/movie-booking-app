@@ -1,0 +1,408 @@
+[
+  {
+    "cinemaSystem": "BHD Star",
+    "id": "GP09",
+    "logo": "http://movie0706.cybersoft.edu.vn/hinhanh/bhd-star-cineplex.png",
+    "cinemaAddressList": [
+      {
+        "address": "75 Lê Hồng Phong, tp Quy Nhơn",
+        "id": "75-QN",
+        "name": "BHD Star - Lê Hồng Phong",
+        "listFilm": [
+          {
+            "filmId": 10530,
+            "filmName": "Kẻ Độc Hành",
+            "image": "http://movie0706.cybersoft.edu.vn/hinhanh/ke-doc-hanh_gp09.jpg",
+            "showTimes": [
+              {
+                "id": "46135",
+                "cinemaName": "Rạp 1",
+                "date": "2023-09-02T13:00:00"
+              },
+              {
+                "id": "46136",
+                "cinemaName": "Rạp 2",
+                "date": "2023-09-02T15:00:00"
+              },
+              {
+                "id": "46137",
+                "cinemaName": "Rạp 3",
+                "date": "2023-09-03T15:00:00"
+              }
+            ]
+          },
+          {
+            "filmId": 10606,
+            "filmName": "Nghề Siêu Dễ",
+            "image": "http://movie0706.cybersoft.edu.vn/hinhanh/aaaaaaaaaaa_gp09.jpg",
+            "showTimes": [
+              {
+                "id": "46135",
+                "cinemaName": "Rạp 1",
+                "date": "2023-09-03T13:00:00"
+              },
+              {
+                "id": "46136",
+                "cinemaName": "Rạp 2",
+                "date": "2023-09-08T15:00:00"
+              },
+              {
+                "id": "46137",
+                "cinemaName": "Rạp 3",
+                "date": "2023-09-09T15:00:00"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "address": "Tầng 8 An Phú Thịnh, tp Quy Nhơn",
+        "id": "APT-QN",
+        "name": "BHD Star - APT",
+        "listFilm": [
+          {
+            "filmId": 10532,
+            "filmName": "Tăng tốc phía em",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/tang-toc-phia-em_gp09.jpg",
+            "showTimes": [
+              {
+                "id": "46135",
+                "cinemaName": "Rạp 1",
+                "date": "2023-09-06T13:00:00"
+              },
+              {
+                "id": "46136",
+                "cinemaName": "Rạp 2",
+                "date": "2023-09-05T15:00:00"
+              },
+              {
+                "id": "46137",
+                "cinemaName": "Rạp 3",
+                "date": "2023-09-07T15:00:00"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cinemaSystem": "CGV",
+    "id": "GP09",
+    "logo": "http://movie0706.cybersoft.edu.vn/hinhanh/cgv.png",
+    "cinemaAddressList": [
+      {
+        "address": "Siêu thị GO, tp Quy Nhơn",
+        "id": "GO-QN",
+        "name": "CGV - GO",
+        "listFilm": [
+          {
+            "filmId": 10531,
+            "filmName": "Nhà Bà Nữ",
+            "image": "http://movie0706.cybersoft.edu.vn/hinhanh/nha-ba-nu_gp09.jpg",
+            "showTimes": [
+              {
+                "id": "46135",
+                "cinemaName": "Rạp 1",
+                "date": "2023-08-28T13:00:00"
+              },
+              {
+                "id": "46136",
+                "cinemaName": "Rạp 2",
+                "date": "2023-09-05T15:00:00"
+              },
+              {
+                "id": "46137",
+                "cinemaName": "Rạp 3",
+                "date": "2023-09-03T15:00:00"
+              }
+            ]
+          },
+          {
+            "filmId": 10533,
+            "filmName": "Phim cực kì hay",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/aaaaaaaaaaaaaaa_gp09.jpg",
+            "showTimes": [
+              {
+                "id": "46135",
+                "cinemaName": "Rạp 1",
+                "date": "2023-09-04T15:00:00"
+              },
+              {
+                "id": "46136",
+                "cinemaName": "Rạp 2",
+                "date": "2023-09-05T14:00:00"
+              },
+              {
+                "id": "46137",
+                "cinemaName": "Rạp 3",
+                "date": "2023-09-03T16:00:00"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "address": "55 Nguyễn Tất Thành, tp Quy Nhơn",
+        "id": "NTT-QN",
+        "name": "CGV - Quy Nhơn",
+        "listFilm": [
+          {
+            "filmId": 10606,
+            "filmName": "Nghề siêu dễ",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/aaaaaaaaaaa_gp09.jpg",
+            "showTimes": [
+              {
+                "id": "46135",
+                "cinemaName": "Rạp 1",
+                "date": "2023-09-02T13:00:00"
+              },
+              {
+                "id": "46136",
+                "cinemaName": "Rạp 2",
+                "date": "2023-09-05T09:00:00"
+              },
+              {
+                "id": "46137",
+                "cinemaName": "Rạp 3",
+                "date": "2023-09-03T10:00:00"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cinemaSystem": "CineStar",
+    "id": "GP09",
+    "logo": "http://movie0706.cybersoft.edu.vn/hinhanh/cinestar.png",
+    "cinemaAddressList": [
+      {
+        "address": "Commat, tp Quy Nhơn",
+        "id": "Com-QN",
+        "name": "CineStart QN",
+        "listFilm": [
+          {
+            "filmId": 10614,
+            "filmName": "RỪNG SĂN NGƯỜI",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/rung-san-nguoi_gp09.jpg",
+            "showTimes": [
+              {
+                "id": "46135",
+                "cinemaName": "Rạp 1",
+                "date": "2023-09-04T21:30:00"
+              },
+              {
+                "id": "46136",
+                "cinemaName": "Rạp 2",
+                "date": "2023-08-29T22:00:00"
+              },
+              {
+                "id": "46137",
+                "cinemaName": "Rạp 3",
+                "date": "2023-09-03T23:00:00"
+              }
+            ]
+          },
+          {
+            "filmId": 10647,
+            "filmName": "Black Adam",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/black-adam_gp09.jpeg",
+            "showTimes": [
+              {
+                "id": "46135",
+                "cinemaName": "Rạp 1",
+                "date": "2023-09-04T15:00:00"
+              },
+              {
+                "id": "46136",
+                "cinemaName": "Rạp 2",
+                "date": "2023-09-05T14:00:00"
+              },
+              {
+                "id": "46137",
+                "cinemaName": "Rạp 3",
+                "date": "2023-09-03T16:00:00"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cinemaSystem": "Galaxy Cinema",
+    "id": "GP09",
+    "logo": "http://movie0706.cybersoft.edu.vn/hinhanh/galaxy-cinema.png",
+    "cinemaAddressList": [
+      {
+        "address": "Chợ Lớn An Phú Thịnh, tp Quy Nhơn",
+        "id": "Galaxy-QN",
+        "name": "Galaxy Ciname QN",
+        "listFilm": [
+          {
+            "filmId": 10647,
+            "filmName": "Black Adam",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/black-adam_gp09.jpeg",
+            "showTimes": [
+              {
+                "id": "46135",
+                "cinemaName": "Rạp 1",
+                "date": "2023-09-04T21:30:00"
+              },
+              {
+                "id": "46136",
+                "cinemaName": "Rạp 2",
+                "date": "2023-08-29T22:00:00"
+              },
+              {
+                "id": "46137",
+                "cinemaName": "Rạp 3",
+                "date": "2023-09-03T23:00:00"
+              }
+            ]
+          },
+          {
+            "filmId": 10649,
+            "filmName": "Captain Marvel 2",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/black-adam_gp09.jpeg",
+            "showTimes": [
+              {
+                "id": "46135",
+                "cinemaName": "Rạp 1",
+                "date": "2023-09-04T15:00:00"
+              },
+              {
+                "id": "46136",
+                "cinemaName": "Rạp 2",
+                "date": "2023-09-05T14:00:00"
+              },
+              {
+                "id": "46137",
+                "cinemaName": "Rạp 3",
+                "date": "2023-09-03T16:00:00"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cinemaSystem": "Lotte Cinema",
+    "id": "GP09",
+    "logo": "http://movie0706.cybersoft.edu.vn/hinhanh/lotte-cinema.png",
+    "cinemaAddressList": [
+      {
+        "address": "31 Lê Hồng Phong, tp Quy Nhơn",
+        "id": "Lotte-QN",
+        "name": "Lotte Ciname QN",
+        "listFilm": [
+          {
+            "filmId": 10647,
+            "filmName": "Black Adam",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/black-adam_gp09.jpeg",
+            "showTimes": [
+              {
+                "id": "46135",
+                "cinemaName": "Rạp 1",
+                "date": "2023-09-04T21:30:00"
+              },
+              {
+                "id": "46136",
+                "cinemaName": "Rạp 2",
+                "date": "2023-08-29T22:00:00"
+              },
+              {
+                "id": "46137",
+                "cinemaName": "Rạp 3",
+                "date": "2023-09-03T23:00:00"
+              }
+            ]
+          },
+          {
+            "filmId": 10649,
+            "filmName": "Captain Marvel 2",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/black-adam_gp09.jpeg",
+            "showTimes": [
+              {
+                "id": "46135",
+                "cinemaName": "Rạp 1",
+                "date": "2023-09-04T15:00:00"
+              },
+              {
+                "id": "46136",
+                "cinemaName": "Rạp 2",
+                "date": "2023-09-05T14:00:00"
+              },
+              {
+                "id": "46137",
+                "cinemaName": "Rạp 3",
+                "date": "2023-09-03T16:00:00"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cinemaSystem": "MegaGS",
+    "id": "GP09",
+    "logo": "http://movie0706.cybersoft.edu.vn/hinhanh/megags.png",
+    "cinemaAddressList": [
+      {
+        "address": "55 Lý Thái Tổ, tp Quy Nhơn",
+        "id": "MegaGS-QN",
+        "name": "MegaGS Ciname QN",
+        "listFilm": [
+          {
+            "filmId": 10647,
+            "filmName": "Black Adam",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/black-adam_gp09.jpeg",
+            "showTimes": [
+              {
+                "id": "46135",
+                "cinemaName": "Rạp 1",
+                "date": "2023-09-04T21:30:00"
+              },
+              {
+                "id": "46136",
+                "cinemaName": "Rạp 2",
+                "date": "2023-08-29T22:00:00"
+              },
+              {
+                "id": "46137",
+                "cinemaName": "Rạp 3",
+                "date": "2023-09-03T23:00:00"
+              }
+            ]
+          },
+          {
+            "filmId": 10649,
+            "filmName": "Captain Marvel 2",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/black-adam_gp09.jpeg",
+            "showTimes": [
+              {
+                "id": "46135",
+                "cinemaName": "Rạp 1",
+                "date": "2023-09-04T15:00:00"
+              },
+              {
+                "id": "46136",
+                "cinemaName": "Rạp 2",
+                "date": "2023-09-05T14:00:00"
+              },
+              {
+                "id": "46137",
+                "cinemaName": "Rạp 3",
+                "date": "2023-09-03T16:00:00"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

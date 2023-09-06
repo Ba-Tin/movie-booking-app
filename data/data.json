@@ -1,0 +1,687 @@
+{
+    "showtimesmovies": [
+        {
+            "cinemaSystem": "BHD Star",
+            "id": "GP09",
+            "logo": "http://movie0706.cybersoft.edu.vn/hinhanh/bhd-star-cineplex.png",
+            "cinemaAddressList": [
+                {
+                    "address": "75 Lê Hồng Phong, tp Quy Nhơn",
+                    "id": "75-QN",
+                    "name": "BHD Star - Lê Hồng Phong",
+                    "listFilm": [
+                        {
+                            "filmId": 10530,
+                            "filmName": "Kẻ Độc Hành",
+                            "image": "http://movie0706.cybersoft.edu.vn/hinhanh/ke-doc-hanh_gp09.jpg",
+                            "showTimes": [
+                                {
+                                    "id": "46135",
+                                    "cinemaName": "Rạp 1",
+                                    "date": "2023-09-06T13:00:00"
+                                },
+                                {
+                                    "id": "46136",
+                                    "cinemaName": "Rạp 2",
+                                    "date": "2023-09-08T15:00:00"
+                                },
+                                {
+                                    "id": "46137",
+                                    "cinemaName": "Rạp 3",
+                                    "date": "2023-09-09T15:00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "filmId": 10606,
+                            "filmName": "Nghề Siêu Dễ",
+                            "image": "http://movie0706.cybersoft.edu.vn/hinhanh/aaaaaaaaaaa_gp09.jpg",
+                            "showTimes": [
+                                {
+                                    "id": "46135",
+                                    "cinemaName": "Rạp 1",
+                                    "date": "2023-09-09T13:00:00"
+                                },
+                                {
+                                    "id": "46136",
+                                    "cinemaName": "Rạp 2",
+                                    "date": "2023-09-10T15:00:00"
+                                },
+                                {
+                                    "id": "46137",
+                                    "cinemaName": "Rạp 3",
+                                    "date": "2023-09-09T15:00:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "address": "Tầng 8 An Phú Thịnh, tp Quy Nhơn",
+                    "id": "APT-QN",
+                    "name": "BHD Star - APT",
+                    "listFilm": [
+                        {
+                            "filmId": 10532,
+                            "filmName": "Tăng tốc phía em",
+                            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/tang-toc-phia-em_gp09.jpg",
+                            "showTimes": [
+                                {
+                                    "id": "46138",
+                                    "cinemaName": "Rạp 1",
+                                    "date": "2023-09-06T13:00:00"
+                                },
+                                {
+                                    "id": "46139",
+                                    "cinemaName": "Rạp 2",
+                                    "date": "2023-09-05T15:00:00"
+                                },
+                                {
+                                    "id": "46187",
+                                    "cinemaName": "Rạp 3",
+                                    "date": "2023-09-07T15:00:00"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cinemaSystem": "CGV",
+            "id": "GP09",
+            "logo": "http://movie0706.cybersoft.edu.vn/hinhanh/cgv.png",
+            "cinemaAddressList": [
+                {
+                    "address": "Siêu thị GO, tp Quy Nhơn",
+                    "id": "GO-QN",
+                    "name": "CGV - GO",
+                    "listFilm": [
+                        {
+                            "filmId": 10531,
+                            "filmName": "Nhà Bà Nữ",
+                            "image": "http://movie0706.cybersoft.edu.vn/hinhanh/nha-ba-nu_gp09.jpg",
+                            "showTimes": [
+                                {
+                                    "id": "46535",
+                                    "cinemaName": "Rạp 1",
+                                    "date": "2023-08-28T13:00:00"
+                                },
+                                {
+                                    "id": "46636",
+                                    "cinemaName": "Rạp 2",
+                                    "date": "2023-09-05T15:00:00"
+                                },
+                                {
+                                    "id": "46737",
+                                    "cinemaName": "Rạp 3",
+                                    "date": "2023-09-03T15:00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "filmId": 10533,
+                            "filmName": "Phim cực kì hay",
+                            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/aaaaaaaaaaaaaaa_gp09.jpg",
+                            "showTimes": [
+                                {
+                                    "id": "46835",
+                                    "cinemaName": "Rạp 1",
+                                    "date": "2023-09-04T15:00:00"
+                                },
+                                {
+                                    "id": "46936",
+                                    "cinemaName": "Rạp 2",
+                                    "date": "2023-09-05T14:00:00"
+                                },
+                                {
+                                    "id": "47137",
+                                    "cinemaName": "Rạp 3",
+                                    "date": "2023-09-03T16:00:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "address": "55 Nguyễn Tất Thành, tp Quy Nhơn",
+                    "id": "NTT-QN",
+                    "name": "CGV - Quy Nhơn",
+                    "listFilm": [
+                        {
+                            "filmId": 10606,
+                            "filmName": "Nghề siêu dễ",
+                            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/aaaaaaaaaaa_gp09.jpg",
+                            "showTimes": [
+                                {
+                                    "id": "48135",
+                                    "cinemaName": "Rạp 1",
+                                    "date": "2023-09-02T13:00:00"
+                                },
+                                {
+                                    "id": "49136",
+                                    "cinemaName": "Rạp 2",
+                                    "date": "2023-09-05T09:00:00"
+                                },
+                                {
+                                    "id": "56137",
+                                    "cinemaName": "Rạp 3",
+                                    "date": "2023-09-03T10:00:00"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cinemaSystem": "CineStar",
+            "id": "GP09",
+            "logo": "http://movie0706.cybersoft.edu.vn/hinhanh/cinestar.png",
+            "cinemaAddressList": [
+                {
+                    "address": "Commat, tp Quy Nhơn",
+                    "id": "Com-QN",
+                    "name": "CineStart - QN",
+                    "listFilm": [
+                        {
+                            "filmId": 10614,
+                            "filmName": "RỪNG SĂN NGƯỜI",
+                            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/rung-san-nguoi_gp09.jpg",
+                            "showTimes": [
+                                {
+                                    "id": "56131",
+                                    "cinemaName": "Rạp 1",
+                                    "date": "2023-09-04T21:30:00"
+                                },
+                                {
+                                    "id": "56132",
+                                    "cinemaName": "Rạp 2",
+                                    "date": "2023-08-29T22:00:00"
+                                },
+                                {
+                                    "id": "56137",
+                                    "cinemaName": "Rạp 3",
+                                    "date": "2023-09-03T23:00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "filmId": 10647,
+                            "filmName": "Black Adam",
+                            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/black-adam_gp09.jpeg",
+                            "showTimes": [
+                                {
+                                    "id": "56134",
+                                    "cinemaName": "Rạp 1",
+                                    "date": "2023-09-06T15:00:00"
+                                },
+                                {
+                                    "id": "58136",
+                                    "cinemaName": "Rạp 2",
+                                    "date": "2023-09-07T14:00:00"
+                                },
+                                {
+                                    "id": "56147",
+                                    "cinemaName": "Rạp 3",
+                                    "date": "2023-09-03T16:00:00"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cinemaSystem": "Galaxy Cinema",
+            "id": "GP09",
+            "logo": "http://movie0706.cybersoft.edu.vn/hinhanh/galaxy-cinema.png",
+            "cinemaAddressList": [
+                {
+                    "address": "Chợ Lớn An Phú Thịnh, tp Quy Nhơn",
+                    "id": "Galaxy-QN",
+                    "name": "Galaxy Ciname - QN",
+                    "listFilm": [
+                        {
+                            "filmId": 10647,
+                            "filmName": "Black Adam",
+                            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/black-adam_gp09.jpeg",
+                            "showTimes": [
+                                {
+                                    "id": "56155",
+                                    "cinemaName": "Rạp 1",
+                                    "date": "2023-09-04T21:30:00"
+                                },
+                                {
+                                    "id": "56166",
+                                    "cinemaName": "Rạp 2",
+                                    "date": "2023-08-29T22:00:00"
+                                },
+                                {
+                                    "id": "56130",
+                                    "cinemaName": "Rạp 3",
+                                    "date": "2023-09-03T23:00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "filmId": 10649,
+                            "filmName": "Captain Marvel 2",
+                            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/black-adam_gp09.jpeg",
+                            "showTimes": [
+                                {
+                                    "id": "56245",
+                                    "cinemaName": "Rạp 1",
+                                    "date": "2023-09-04T15:00:00"
+                                },
+                                {
+                                    "id": "56240",
+                                    "cinemaName": "Rạp 2",
+                                    "date": "2023-09-05T14:00:00"
+                                },
+                                {
+                                    "id": "66137",
+                                    "cinemaName": "Rạp 3",
+                                    "date": "2023-09-03T16:00:00"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cinemaSystem": "Lotte Cinema",
+            "id": "GP09",
+            "logo": "http://movie0706.cybersoft.edu.vn/hinhanh/lotte-cinema.png",
+            "cinemaAddressList": [
+                {
+                    "address": "31 Lê Hồng Phong, tp Quy Nhơn",
+                    "id": "Lotte-QN",
+                    "name": "Lotte Ciname - QN",
+                    "listFilm": [
+                        {
+                            "filmId": 10647,
+                            "filmName": "Black Adam",
+                            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/black-adam_gp09.jpeg",
+                            "showTimes": [
+                                {
+                                    "id": "476135",
+                                    "cinemaName": "Rạp 1",
+                                    "date": "2023-09-04T21:30:00"
+                                },
+                                {
+                                    "id": "86136",
+                                    "cinemaName": "Rạp 2",
+                                    "date": "2023-08-29T22:00:00"
+                                },
+                                {
+                                    "id": "96137",
+                                    "cinemaName": "Rạp 3",
+                                    "date": "2023-09-03T23:00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "filmId": 10649,
+                            "filmName": "Captain Marvel 2",
+                            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/black-adam_gp09.jpeg",
+                            "showTimes": [
+                                {
+                                    "id": "16135",
+                                    "cinemaName": "Rạp 1",
+                                    "date": "2023-09-04T15:00:00"
+                                },
+                                {
+                                    "id": "26136",
+                                    "cinemaName": "Rạp 2",
+                                    "date": "2023-09-05T14:00:00"
+                                },
+                                {
+                                    "id": "36137",
+                                    "cinemaName": "Rạp 3",
+                                    "date": "2023-09-03T16:00:00"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cinemaSystem": "MegaGS",
+            "id": "GP09",
+            "logo": "http://movie0706.cybersoft.edu.vn/hinhanh/megags.png",
+            "cinemaAddressList": [
+                {
+                    "address": "55 Lý Thái Tổ, tp Quy Nhơn",
+                    "id": "MegaGS-QN",
+                    "name": "MegaGS Ciname - QN",
+                    "listFilm": [
+                        {
+                            "filmId": 10647,
+                            "filmName": "Black Adam",
+                            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/black-adam_gp09.jpeg",
+                            "showTimes": [
+                                {
+                                    "id": "47455",
+                                    "cinemaName": "Rạp 1",
+                                    "date": "2023-09-04T21:30:00"
+                                },
+                                {
+                                    "id": "47456",
+                                    "cinemaName": "Rạp 2",
+                                    "date": "2023-08-29T22:00:00"
+                                },
+                                {
+                                    "id": "47457",
+                                    "cinemaName": "Rạp 3",
+                                    "date": "2023-09-03T23:00:00"
+                                }
+                            ]
+                        },
+                        {
+                            "filmId": 10649,
+                            "filmName": "Captain Marvel 2",
+                            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/black-adam_gp09.jpeg",
+                            "showTimes": [
+                                {
+                                    "id": "45453",
+                                    "cinemaName": "Rạp 1",
+                                    "date": "2023-09-04T15:00:00"
+                                },
+                                {
+                                    "id": "45454",
+                                    "cinemaName": "Rạp 2",
+                                    "date": "2023-09-05T14:00:00"
+                                },
+                                {
+                                    "id": "45455",
+                                    "cinemaName": "Rạp 3",
+                                    "date": "2023-09-03T16:00:00"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "movies": [
+        {
+            "id": 10530,
+            "filmName": "KẺ ĐỘC HÀNH",
+            "filmUrl": "ke-doc-hanh",
+            "trailer": "https://youtu.be/_iyC2aUCxY0",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/ke-doc-hanh_gp09.jpg",
+            "description": "Bộ phim sẽ được phát sóng dự kiến vào tháng 10/2022 Với 08 tập phim theo dạng web series, cùng sự góp mặt với hơn 30 nghệ sỹ, diễn viên… Với chi phí đầu tư lớn và được phát sóng trên nền tảng VOD. Ai Chết Giơ Tay (new season) với tên gọi Kẻ Độc Hành. Đây là dự án tâm huyết của Lập đã được chuẩn bị hơn 1 năm, đã được bấm máy vào tháng 05/2021 tại Long Xuyên AG (quê nhà của Lập) và sẽ được hậu kỳ hơn 1 năm.",
+            "groupId": "GP09",
+            "startDate": "2022-11-05T00:00:00",
+            "rating": 10
+        },
+        {
+            "id": 10531,
+            "filmName": "Nhà Bà Nữ",
+            "filmUrl": "nha-ba-nu",
+            "trailer": "https://www.youtube.com/watch?v=1anBxcsV5b8",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/nha-ba-nu_gp09.jpg",
+            "description": "Ông Thái là một cảnh sát về hưu nhưng không chịu an phận thủ thường, hàng ngày vẫn đi tìm bắt tội phạm vặt trong xóm cho đỡ nhớ nghề. Một ngày kia, Hoàng - tên trùm ma túy mới ra tù bỗng dưng chuyển đến xóm ông và mở một văn phòng bất động sản. Nghi ngờ đây là nơi làm ăn phi pháp, ông Thái quyết định âm thầm điều tra. Ông mua lại tiệm cơm tấm đối diện trụ sở của Hoàng để làm nơi theo dõi, đồng thời thu nạp Thu - Phú - Vinh - Mèo, đám thanh niên “bất hảo” trong xóm về quán hỗ trợ buôn bán để rảnh tay \"phá án\". Trớ trêu thay, tiệm cơm bất ngờ nổi tiếng và ăn nên làm ra, khiến cho \"chuyên án đặc biệt\" của ông đứng trước nguy cơ đổ bể.",
+            "groupId": "GP09",
+            "startDate": "2022-05-28T00:00:00",
+            "rating": 10
+        },
+        {
+            "id": 10532,
+            "filmName": "Tăng tốc phía em",
+            "filmUrl": "tang-toc-phia-em",
+            "trailer": "https://www.youtube.com/watch?v=h261_whvLPM",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/tang-toc-phia-em_gp09.jpg",
+            "description": "Kao (Nat Kitcharit) là một nhà vô địch thế giới môn xếp ly tốc độ (Speed Stack). Tuy thành công và nổi tiếng nhưng Kao lại chỉ như một đứa trẻ to xác suốt ngày chỉ ăn, ngủ và tập luyện. Mọi vấn đề xung quanh anh đều một tay Jay (Yaya) bạn gái anh quán xuyến. Đến một ngày khi Jay quyết định chia tay thì Kao như bị mất tất cả. Anh phải bắt đầu học những kỹ năng sống cơ bản để có thể tự sống một mình và chăm sóc bản thân. Song song đó những đối thủ mới cũng xuất hiện và đe dọa đến vị trí quán quân của Kao.",
+            "groupId": "GP09",
+            "startDate": "2022-05-11T00:00:00",
+            "rating": 10
+        },
+        {
+            "id": 10533,
+            "filmName": "Phim cực kì hay",
+            "filmUrl": "phim-cuc-ki-hay",
+            "trailer": "https://youtu.be/3xccmeAsy8g",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/aaaaaaaaaaaaaaa_gp09.jpg",
+            "description": "Phim hay, nên đừng đổi mô tả nữa",
+            "groupId": "GP09",
+            "startDate": "2022-08-26T19:12:55.477",
+            "rating": 10
+        },
+        {
+            "id": 10606,
+            "filmName": "Nghề siêu dễ",
+            "filmUrl": "nghe-sieu-de",
+            "trailer": "https://www.youtube.com/watch?v=ZOgNsZpLwvs",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/aaaaaaaaaaa_gp09.jpg",
+            "description": "https://www.youtube.com/watch?v=ZOgNsZpLwvshttps://www.youtube.com/watch?v=ZOgNsZpLwvshttps://www.youtube.com/watch?v=ZOgNsZpLwvshttps://www.youtube.com/watch?v=ZOgNsZpLwvs",
+            "groupId": "GP09",
+            "startDate": "2022-05-15T00:00:00",
+            "rating": 10
+        },
+        {
+            "id": 10614,
+            "filmName": "RỪNG SĂN NGƯỜI",
+            "filmUrl": "rung-san-nguoi",
+            "trailer": "https://www.youtube.com/watch?v=BRXHdMcU_co",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/rung-san-nguoi_gp09.jpg",
+            "description": "Một biệt đội được phái vào rừng sâu để tìm tài liệu tuyệt mật và những người đồng đội mất tích. Nhưng mọi thứ không đơn giản như thế, họ đã tiến vào một vùng đất chất, nơi quỷ dữ thống trị và điều khiển mọi thứ. Đặc biệt, phim có sự góp mặt của Mickey Rourke, phản diện chính từ Iron Man 2.",
+            "groupId": "GP09",
+            "startDate": "2022-05-17T00:00:00",
+            "rating": 10
+        },
+        {
+            "id": 10647,
+            "filmName": "Black Adam",
+            "filmUrl": "black-adam",
+            "trailer": "https://www.youtube.com/watch?v=N73oTiIIJe0",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/black-adam_gp09.jpeg",
+            "description": "Mặc dù kế hoạch là Black Adam sẽ xuất hiện trong Shazam 2, thế nhưng nhà sản xuất quyết định cho nhân vật này ra một phần phim riêng. Black Adam là một pháp sư Ai Cập cổ đại được chọn làm người kế thừa sức mạnh Shazam tuy nhien hắn dần dần bị tha hoá về đạo đức và sự lạm dụng sức mạnh của mình. Chính vì vậy hắn đã bị phong ấn suốt mấy ngàn năm qua.",
+            "groupId": "GP09",
+            "startDate": "2023-04-29T00:00:00",
+            "rating": 10
+        },
+        {
+            "id": 10649,
+            "filmName": "Captain Marvel 2",
+            "filmUrl": "captain-marvel-2",
+            "trailer": "https://www.youtube.com/watch?v=M3tBP1MyMB0",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/captain-marvel-2_gp09.jpeg",
+            "description": "Diễn ra trong bối cảnh hiện đại sau những năm 1990 vintage của bộ phim gốc, Captain Marvel 2 sẽ tiếp nối sau sự kiện Avenger: Endgame với kịch bản được viết bởi Megan McDonnel (một trong những nhà biên kịch WandaVision). Chúng ta có thể tin rằng Carol Danvers sẽ được cách tân phù hợp với gam màu MCU hiện tại trong Captain Marvel 2.",
+            "groupId": "GP09",
+            "startDate": "2022-05-26T00:00:00",
+            "rating": 10
+        },
+        {
+            "id": 10765,
+            "filmName": "iron man 4",
+            "filmUrl": "iron-man-4",
+            "trailer": "https://www.youtube.com/embed/SwwlFvOwkhA",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/iron-man-4_gp09.jpg",
+            "description": "mota ironman",
+            "groupId": "GP09",
+            "startDate": "2022-07-01T00:00:00",
+            "rating": 10
+        },
+        {
+            "id": 10766,
+            "filmName": "Thor 5",
+            "filmUrl": "thor-5",
+            "trailer": "https://www.youtube.com/embed/TyfBgQKsEXs",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/thor-5_gp09.jpg",
+            "description": "than sam 5 hihihihihihiih hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii\nhiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
+            "groupId": "GP09",
+            "startDate": "2022-07-03T00:00:00",
+            "rating": 10
+        },
+        {
+            "id": 10786,
+            "filmName": "test1",
+            "filmUrl": "test1",
+            "trailer": "Khong",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/test1_gp09.png",
+            "description": "Test",
+            "groupId": "GP09",
+            "startDate": "2022-07-11T00:00:00",
+            "rating": 10
+        },
+        {
+            "id": 10840,
+            "filmName": "Detective Pikachu",
+            "filmUrl": "detective-pikachu",
+            "trailer": "https://www.youtube.com/embed/1roy4o4tqQM",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/detective-pikachu_gp09.jpg",
+            "description": "Pokemon: Detective Pikachu xoay quay hành trình truy tìm manh mối phá án về cái chết của Harry Goodman – thám tử mẫn cán ở thành phố Ryme của Tim Goodman và người bạn đồng hành siêu đáng yêu Pikachu. Là người duy nhất nghe được giọng nói thực của của Pikachu thay vì tiếng “Pika Pika” quen thuộc, Tim và Pikachu nhanh chóng trở thành bạn thân và cùng dấn thân vào cuộc điều tra những vụ mất tích bí ẩn trong thành phố. Trong hành trình phá án, cặp đôi “oan gia” này đã gây ra những tình huống trái ngang nhưng tràn đầy tiếng cười.",
+            "groupId": "GP09",
+            "startDate": "2022-11-07T23:05:09.74",
+            "rating": 10
+        },
+        {
+            "id": 10949,
+            "filmName": "evfweagwag",
+            "filmUrl": "evfweagwag",
+            "trailer": "https://www.youtube.com/watch?v=AghIqOvlxRQ",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/evfweagwag_gp09.png",
+            "description": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "groupId": "GP09",
+            "startDate": "2022-10-02T00:00:00",
+            "rating": 10
+        },
+        {
+            "id": 10952,
+            "filmName": "TẤM VÉ ĐẾN THIÊN ĐƯỜNG",
+            "filmUrl": "tam-ve-den-thien-duong",
+            "trailer": "https://www.youtube.com/watch?v=pyYq_iGzetM",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/tam-ve-den-thien-duong_gp09.jpg",
+            "description": "Hai diễn viên kỳ cựu của Hollywood - George Clooney và Julia Roberts sẽ tái hợp trên màn ảnh rộng trong vai đôi vợ chồng đã li hôn, nhưng lại cùng chung sứ mệnh ngăn cản cuộc kết hôn của đứa con gái yêu. Bởi họ sợ rằng con gái đang mắc phải sai lầm tương tự điều mà họ đã từng trải qua. Ticket to Paradise là một bộ phim hài lãng mạn về sự ngọt ngào bất ngờ của \"cơ hội thứ hai”.",
+            "groupId": "GP09",
+            "startDate": "2022-10-14T00:00:00",
+            "rating": 10
+        },
+        {
+            "id": 10953,
+            "filmName": "21312TẤM VÉ ĐẾN THIÊN ĐƯỜNG",
+            "filmUrl": "21312tam-ve-den-thien-duong",
+            "trailer": "https://www.youtube.com/watch?v=pyYq_iGzetM",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/21312tam-ve-den-thien-duong_gp09.jpg",
+            "description": "Hai diễn viên kỳ cựu của Hollywood - George Clooney và Julia Roberts sẽ tái hợp trên màn ảnh rộng trong vai đôi vợ chồng đã li hôn, nhưng lại cùng chung sứ mệnh ngăn cản cuộc kết hôn của đứa con gái yêu. Bởi họ sợ rằng con gái đang mắc phải sai lầm tương tự điều mà họ đã từng trải qua. Ticket to Paradise là một bộ phim hài lãng mạn về sự ngọt ngào bất ngờ của \"cơ hội thứ hai”.\r\n",
+            "groupId": "GP09",
+            "startDate": "2022-10-14T00:00:00",
+            "rating": 10
+        },
+        {
+            "id": 10984,
+            "filmName": "Aquaman",
+            "filmUrl": "aquaman",
+            "trailer": "https://www.youtube.com/embed/YmHijIQrOiY",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/aquaman_gp09.jpg",
+            "description": "Aquaman and the Lost Kingdom is an upcoming American superhero film based on the DC Comics character Aquaman. Produced by DC Films, The Safran Company, and Atomic Monster Productions, and set for distribution by Warner Bros. Pictures, it is intended to be the sequel to Aquaman (2018) and the thirteenth film in the DC Extended Universe (DCEU). The film is directed by James Wan from a screenplay written by David Leslie Johnson-McGoldrick, and stars Jason Momoa as Arthur Curry / Aquaman alongside Amber Heard, Willem Dafoe, Patrick Wilson, Dolph Lundgren, Yahya Abdul-Mateen II, Temuera Morrison, and Nicole Kidman.\r\n\r\nMomoa pitched a story for an Aquaman sequel during production of the first film. Wan did not want to rush a sequel but agreed in January 2019 to oversee development. Johnson-McGoldrick signed to write the screenplay a month later, and Wan was confirmed to be directing in August 2020. He said the film would expand on Aquaman's worldbuilding, and announced the sequel's title in June 2021. Filming began at the end of the month and concluded in January 2022, taking place in the United Kingdom, Hawaii, and Los Angeles.\r\n",
+            "groupId": "GP09",
+            "startDate": "2022-11-07T23:04:38.213",
+            "rating": 10
+        },
+        {
+            "id": 10985,
+            "filmName": "cô gái từ quá khứ ",
+            "filmUrl": "co-gai-tu-qua-khu",
+            "trailer": "https://www.youtube.com/watch?v=WsBV9s1SqpM",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/co-gai-tu-qua-khu_gp09.png",
+            "description": "Đang tất bật chuẩn bị cho đám cưới triệu đô cùng chàng Jack điển trai, đại mỹ nhân showbiz Ms. Q/Hoàng Quyên (Ninh Dương Lan Ngọc) bất ngờ mất tích một cách bí ẩn ngay sau khi gặp lại Quỳnh Yên (Kaity Nguyễn), một người bạn đã mất liên lạc từ 15 năm trước. Ngay lập tức, các rắc rối liên tục ập đến, kéo theo những bí mật đen tối của cả hai dần bị lột trần. Ai là kẻ thủ ác? Ai mới là nạn nhân? P/S: Bất kể cô ta có nói gì thì cũng nên nhớ: Đừng tin lời cô ta nói!",
+            "groupId": "GP09",
+            "startDate": "2022-10-24T00:00:00",
+            "rating": 10
+        },
+        {
+            "id": 10986,
+            "filmName": "black Adam",
+            "filmUrl": "black-adam",
+            "trailer": "https://www.youtube.com/watch?v=uAop-vMrggI",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/black-adam_gp09.jpg",
+            "description": "Dwayne Johnson sẽ góp mặt trong tác phẩm hành động - phiêu lưu mới của New Line Cinema “Black Adam”. Đây là bộ phim đầu tiên trên màn ảnh rộng khai thác câu chuyện của siêu anh hùng DC này, dưới sự sáng tạo của đạo diễn Jaume Collet-Serra (“Jungle Cruise”). \r\n\r\nGần 5.000 năm sau khi bị cầm tù với quyền năng tối thượng từ những vị thần cổ đại, Black Adam (Dwayne Johnson) sẽ được giải phóng khỏi nấm mồ chết chóc của mình, mang tới thế giới hiện đại một kiểu nhận thức về công lý hoàn toàn mới. \r\n\r\nBên cạnh Johnson, phim quy tụ dàn sao Aldis Hodge (“City on a Hill,” “One Night in Miami”) trong vai Hawkman, Noah Centineo (“To All the Boys I’ve Loved Before”) trong vai Atom Smasher, Sarah Shahi (“Sex/Life”, “Rush Hour 3”) trong vai Adrianna, Marwan Kenzari (“Murder on the Orient Express”, “The Mummy”) trong vai Ishmael, Quintessa Swindell (“Voyagers”, “Trinkets”) trong vai Cyclone, Bodhi Sabongui (“A Million Little Things”) trong vai Amon, và Pierce Brosnan (“Mamma Mia!” và loạt phim James Bond) trong vai Dr. Fate.\r\n\r\nCollet-Serra đạo diễn dựa trên kịch bản do Adam Sztykiel và Rory Haines & Sohrab Noshirvani chấp bút, với cốt truyện sáng tạo bởi Adam Sztykiel và Rory Haines & Sohrab Noshirvani, dựa trên nhân vật thuộc vũ trụ DC Black Adam sáng tạo bởi Bill Parker cùng C.C. Beck. Đội ngũ sản xuất phim bao gồm Beau Flynn, Dwayne Johnson, Hiram Garcia và Dany Garcia, cùng với Richard Brener, Walter Hamada, Dave Neustadter, Chris Pan, Eric McLeod, Geoff Johns và Scott Sheldon.\r\n\r\n“Black Adam” dự kiến sẽ công phá phòng vé  từ ngày 21.10.2022 với định dạng 2D và IMAX. Phim được phân phối toàn cầu bởi hàng Warner Bros. Pictures.",
+            "groupId": "GP09",
+            "startDate": "2022-10-25T00:00:00",
+            "rating": 10
+        },
+        {
+            "id": 10987,
+            "filmName": "Fantastic Beasts",
+            "filmUrl": "fantastic-beasts",
+            "trailer": "https://www.youtube.com/embed/Y9dr2zw-TXQ",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/fantastic-beasts_gp09.jpg",
+            "description": "Warner Bros. Pictures’ “Fantastic Beasts: The Secrets of Dumbledore” is the newest adventure in the Wizarding World™ created by J.K. Rowling.\r\n\r\nProfessor Albus Dumbledore (Jude Law) knows the powerful Dark wizard Gellert Grindelwald (Mads Mikkelsen) is moving to seize control of the wizarding world. Unable to stop him alone, he entrusts Magizoologist Newt Scamander (Eddie Redmayne) to lead an intrepid team of wizards, witches and one brave Muggle baker on a dangerous mission, where they encounter old and new beasts and clash with Grindelwald’s growing legion of followers. But with the stakes so high, how long can Dumbledore remain on the sidelines?\r\n\r\nThe film features an ensemble cast led by Oscar winner Eddie Redmayne (“The Theory of Everything”), two-time Oscar nominee Jude Law (“Cold Mountain,” “The Talented Mr. Ripley”), Ezra Miller, Dan Fogler, Alison Sudol, Callum Turner, Jessica Williams, Katherine Waterston, and Mads Mikkelsen.\r\n\r\n“Fantastic Beasts: The Secrets of Dumbledore” was directed by David Yates, from a screenplay by J.K. Rowling & Steve Kloves, based upon a screenplay by J.K. Rowling. The film was produced by David Heyman, J.K. Rowling, Steve Kloves, Lionel Wigram and Tim Lewis. Neil Blair, Danny Cohen, Josh Berger, Courtenay Valenti and Michael Sharp served as executive producers.\r\n\r\nThe film’s behind-the-scenes creative team included director of photography George Richmond (“Rocketman,” “Kingsman: The Golden Circle”), three-time Oscar-winning production designer Stuart Craig (“The English Patient,” “Dangerous Liaisons,” “Gandhi,” the “Harry Potter” and “Fantastic Beasts” films) and production designer Neil Lamont (“Solo: A Star Wars Story,” “Rogue One: A Star Wars Story”), four-time Oscar-winning costume designer Colleen Atwood (“Chicago,” “Memoirs of a Geisha,” “Alice in Wonderland,” “Fantastic Beasts\r\nand Where to Find Them”), and Yates’ longtime editor Mark Day (“Fantastic Beasts: The Crimes of Grindelwald,” the last four “Harry Potter” films). The music is by nine-time Oscar nominee James Newton Howard (“News of the World,” “Fantastic Beasts: The Crimes of Grindelwald,” “Defiance,” “Michael Clayton,” “The Hunger Games” films).\r\n\r\nWarner Bros. Pictures presents a Heyday Films Production, a David Yates film, “Fantastic Beasts: The Secrets of Dumbledore,” in theaters internationally beginning 7 April 2022 and in North America on April 15, 2022. The film will be distributed worldwide in select theatres and IMAX by Warner Bros. Pictures.",
+            "groupId": "GP09",
+            "startDate": "2022-11-07T23:04:07.7",
+            "rating": 10
+        },
+        {
+            "id": 10988,
+            "filmName": "Phim chữ A",
+            "filmUrl": "phim-chu-a",
+            "trailer": "https://www.youtube.com/watch?v=pyYq_iGzetM",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/phim-chu-a_gp09.jpg",
+            "description": "a",
+            "groupId": "GP09",
+            "startDate": "2023-09-29T00:00:00",
+            "rating": 10
+        },
+        {
+            "id": 10989,
+            "filmName": "BỖNG DƯNG TRÚNG SỐ",
+            "filmUrl": "bong-dung-trung-so",
+            "trailer": "https://www.youtube.com/embed/D3KbO3QF-lg",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/bong-dung-trung-so_gp09.png",
+            "description": "Người lính Hàn Quốc Chun Woo (Ko Kyoung-pyo) vô tình nhặt được tờ vé số trúng độc đắc trị giá lên đến gần 6 triệu đô! Nhưng chưa kịp vui mừng bao lâu, tờ vé số ấy không may bị cuốn bay sang bên kia biên giới và rơi vào tay anh lính Triều Tiên Yong Ho (Lee Yi-kyung). Chun Woo cần tờ vé số để đổi tiền, trong khi Yong Ho dù nắm giữ tờ vé quan trọng lại không thể đặt chân đến Hàn Quốc. Câu chuyện ngày càng trở nên rắc rối và hài hước khi có thêm những người đồng đội của hai anh chàng biết được sự việc và nhất quyết tham gia vào cuộc đàm phán chia tiền.",
+            "groupId": "GP09",
+            "startDate": "2023-11-07T23:03:34.007",
+            "rating": 10
+        },
+        {
+            "id": 11231,
+            "filmName": "Lật Mặt 6: Tấm Vé Định Mệnh",
+            "filmUrl": "lat-mat-6-tam-ve-dinh-menh",
+            "trailer": "https://www.youtube.com/watch?v=DeZGe5pHRQY",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/lat-mat-6-tam-ve-dinh-menh_gp09.jpg",
+            "description": "Một nhóm bạn thân lâu năm bất ngờ nhận được cơ hội đổi đời khi biết tấm vé của cả nhóm trúng giải độc đắc 136.8 tỷ. Đột nhiên An, người nắm giữ tấm vé bất ngờ gặp tai nạn không qua khỏi. Đứng trước món tiền trúng số đáng mơ ước lẽ ra sẽ dễ dàng có được trong tầm tay, nhóm bạn bước chân vào hành trình đi tìm tờ vé số. Nhưng đó chỉ là khởi đầu của vô số những sự kiện không ngờ đến. Liệu hành trình tìm kiếm và chia chác món tiền trong mơ béo bở này sẽ thực sự dẫn đưa cả nhóm đến đâu?",
+            "groupId": "GP09",
+            "startDate": "2023-10-10T00:00:00",
+            "rating": 10
+        },
+        {
+            "id": 11244,
+            "filmName": "prison break",
+            "filmUrl": "prison-break",
+            "trailer": "https://abc.com",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/prison-break_gp09.jpg",
+            "description": "abc",
+            "groupId": "GP09",
+            "startDate": "2023-10-17T00:00:00",
+            "rating": 10
+        },
+        {
+            "id": 11256,
+            "filmName": "Chuộc lại",
+            "filmUrl": "chuoc-lai",
+            "trailer": "https://www.youtube.com/watch?v=H_EW3U7HlH0",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/chuoc-lai_gp09.jpg",
+            "description": "Bị đưa vào con đường mại dâm từ khi còn nhỏ, Angel không biết gì ngoài sự phản bội. Trái tim của cô ấy liệu còn có thể được hàn gắn?",
+            "groupId": "GP09",
+            "startDate": "2023-10-05T00:00:00",
+            "rating": 10
+        },
+        {
+            "id": 11257,
+            "filmName": "Chuộc lại",
+            "filmUrl": "chuoc-lai",
+            "trailer": "https://www.youtube.com/watch?v=H_EW3U7HlH0",
+            "image": "https://movie0706.cybersoft.edu.vn/hinhanh/chuoc-lai_gp09.png",
+            "description": "Tính năng quét mã QR trên MoMo có thể sử dụng quét các mã QR ngân hàng , VIETQR , QR giao dịch chuyển và nhận tiền",
+            "groupId": "GP09",
+            "startDate": "2023-10-05T00:00:00",
+            "rating": 10
+        }
+    ]
+}

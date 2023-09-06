@@ -25,11 +25,11 @@
           <div class="rating-icon">
            <span class="movie-rating-number">{{movieData?.rating === 0 ? 'Chưa có đánh giá' : movieData?.rating}}</span>
                 <span class="movie-rating-icon">
-                  <AtomIcon
+                  <box-icon
                     v-for="index in 5"
                     :key="index"
                     :name="['bx', 'bxs-star', { 'text-warning': index <= movieData?.rating, 'text-secondary': index > movieData?.rating }]"
-                  ></AtomIcon>
+                  ></box-icon>
                 </span>
           </div>
         </div>
@@ -39,14 +39,13 @@
 </template>
 <script>
 import { mapActions, mapState } from 'vuex';
-import { AtomIcon } from "../../atoms"
+
 import { getFormattedDate } from "../../../utils/dateTime";
 import CircleProgress from "vue3-circle-progress";
 
 import './style.css'
 export default {
   components: {
-    AtomIcon,
     CircleProgress
   },
   computed: {

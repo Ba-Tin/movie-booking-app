@@ -20,6 +20,7 @@
   width: 15rem;
   border: 1px solid var(--text-color);
   border-radius: 10px;
+  height: 22rem;
 }
 .movie-content {
   color: var(--text-color);

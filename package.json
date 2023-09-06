@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "away": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
@@ -12,6 +12,7 @@
     "bootstrap-vue": "^2.23.1",
     "boxicons": "^2.1.4",
     "core-js": "^3.8.3",
+    "firebase": "^10.3.1",
     "uuid": "^9.0.0",
     "vue": "^3.2.13",
     "vue-ellipse-progress": "^2.1.1",

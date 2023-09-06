@@ -4,6 +4,7 @@ import MainClient from "./layout/client/MainClient/MainClient.vue"
 import { Cinema, User, Schedule, MovieAdmin, HomeAdmin, CinemaComplex } from "./layout/admin/Content"
 import { MovieDetail, ScheduleMovie, NewFeed } from "./layout/client/Content";
 import { MoleculeNotFound } from "@/components/molecules"
+import { OrganismsModalLogin } from "@/components/organisms"
 
 const routes = [
     {
@@ -43,6 +44,7 @@ const routes = [
         children: [
             {
                 path: "/",
+                name: 'Home',
                 component: () => import(/* webpackChunkName: "home" */ "@/layout/client/Content/Home"),
             },
             {
@@ -61,8 +63,12 @@ const routes = [
                 path: "/newfeed",
                 component: NewFeed,
             },
-        ],
 
+        ],
+    },
+    {
+        path: "/login",
+        component: OrganismsModalLogin
     },
     {
         path: "/:pathMatch(.*)*",

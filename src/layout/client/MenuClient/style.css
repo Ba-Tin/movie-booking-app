@@ -27,3 +27,18 @@
   font-weight: 500;
   margin-top: 1rem;
 }
+.nav-end {
+  background: #0d0000;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+.nav-end .user {
+  display: flex;
+  align-items: center;
+}
+
+.user span {
+  font-size: 1.5rem;
+  color: var(--text-color);
+}
