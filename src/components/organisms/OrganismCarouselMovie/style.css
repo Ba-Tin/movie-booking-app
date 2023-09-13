@@ -20,6 +20,7 @@
 /* carousel */
 .carousel {
   text-align: start;
+  margin-bottom: 2rem;
 }
 
 .customer__carousel {

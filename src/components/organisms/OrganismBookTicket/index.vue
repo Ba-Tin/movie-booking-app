@@ -94,15 +94,15 @@
           <table>
             <tr>
               <td><span>Phim</span></td>
-              <th><span>170.000 đ</span></th>
+              <th><span>{{ ticketPrice.toLocaleString() }} đ</span></th>
             </tr>
             <tr>
               <td><span>Combo:</span></td>
-              <th><span>0000</span></th>
+              <th><span>{{ comboPrice.toLocaleString() }} đ</span></th>
             </tr>
             <tr>
               <td><span>Tổng</span></td>
-              <th><p>1700.000đ</p></th>
+              <th><p class="text-danger">{{ totalPrice.toLocaleString()}} đ</p></th>
             </tr>
           </table>
           <div class="line-total"></div>
@@ -127,6 +127,9 @@ export default {
       selectedTime: null,
       selectedDate: null,
       selectedSeats: null,
+      ticketPrice: 85000, // Giá vé phim
+      comboPrice: 0,  // Giá combo
+      totalPrice: 0,
 
     };
   },
@@ -187,7 +190,6 @@ export default {
       });
       return times;
     },
-    // Tạo danh sách các phòng chiếu dựa trên ngày và rạp phim được chọn
     roomsForSelectedDateAndCinema() {
 
       if (!this.selectedDate || !this.selectedCinemaId) {
@@ -213,7 +215,12 @@ export default {
 
       return rooms;
     },
-
+    // Tính tổng giá vé dựa trên số lượng ghế đã chọn
+    totalTicketPrice() {
+      const ticketPriceTotal = this.ticketPrice * this.selectedSeats.length;
+      console.log("sdsd", ticketPriceTotal);
+      return ticketPriceTotal + this.comboPrice;
+    },
   },
   methods: {
     ...mapActions(['getMovieById', 'getAllSeat']),
@@ -226,12 +233,14 @@ export default {
     },
     getSeats(seats) {
       this.selectedSeats = seats.map(seat => seat.row + seat.number).join(', ');
+      this.totalPrice = (this.ticketPrice * seats.length + this.comboPrice);
     },
     handleBookTicket() {
       if (!this.selectedCinema?.cinemaSystem || !this.selectedDate || !this.selectedTime || !this.selectedSeats) {
         toast.warning("Vui lòng chọn đầy đủ thông tin trước khi đặt vé.", { duration: 1500 });
         return;
       }
+      this.totalPrice = this.totalTicketPrice;
       const bookingInfo = {
         movieImage: this.movieDetail?.image,
         movieName: this.movieDetail?.filmName,

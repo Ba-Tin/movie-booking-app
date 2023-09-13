@@ -76,7 +76,6 @@ export default {
     },
     selectMovie(address) {
       this.selectedMovie = address.listFilm;
-
     },
     selectFilm(film) {
       console.log("film", film);

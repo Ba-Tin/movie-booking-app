@@ -9,7 +9,7 @@
           <h1 class="movie-name">{{movieDetail?.filmName}}</h1>
           <p class="length-movie">130 phút - 3.0IMDb - 2D/Digital</p>
           <div class="buy-ticket">
-            <button type="submit" class="button">Mua vé</button>
+            <button type="submit" class="button"  @click="handleBookTicket(movieDetail)">Mua vé</button>
           </div>
         </div>
         <div class="detail-movie-rating">
@@ -68,7 +68,8 @@
 </template>
 <script>
 import { mapState, mapActions } from 'vuex';
-
+import { useUser } from "@/mixin/User/useUser";
+import { useRouter } from 'vue-router';
 import { getFormattedDate } from "@/utils/dateTime";
 import CircleProgress from "vue3-circle-progress";
 import { MoleculeSchedule, MoleculeDescription } from "@/components/molecules"
@@ -80,7 +81,20 @@ export default {
       activeTab: 'Lịch chiếu',
     };
   },
+  setup() {
+    const router = useRouter();
+    const { getUser } = useUser();
+    const user = getUser();
+    const handleBookTicket = (movieData) => {
+      if (user) {
+        router.push({ name: 'Booking', params: { filmUrl: movieData.filmUrl } })
+      } else {
+        router.push({ name: 'Login' });
+      }
+    }
 
+    return { user, handleBookTicket }
+  },
   components: {
     CircleProgress, MoleculeSchedule, MoleculeDescription
   },
@@ -93,6 +107,8 @@ export default {
     changeTab(tab) {
       this.activeTab = tab;
     },
+
+
   },
   mounted() {
     this.getMovieById(this.$route.params.filmUrl)

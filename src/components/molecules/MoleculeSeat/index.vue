@@ -50,23 +50,25 @@ export default {
     toggleSeatStatus(row, number, seat) {
       if (seat.status === "available") {
         seat.status = "selected";
+        const selectedIndex = this.selectedSeats.findIndex(
+          selectedSeat => selectedSeat.row === row && selectedSeat.number === number
+        );
+        if (selectedIndex === -1) {
+          this.selectedSeats.push({ row, number });
+        }
       } else if (seat.status === "selected") {
         seat.status = "available";
-      }
-      console.log("row", row);
-      console.log("number", number);
-
-      const selectedIndex = this.selectedSeats.findIndex(
-        selectedSeat => selectedSeat.row === row && selectedSeat.number === number
-      );
-      if (selectedIndex === -1) {
-        this.selectedSeats.push({ row, number });
-      } else {
-        this.selectedSeats.splice(selectedIndex, 1);
+        const selectedIndex = this.selectedSeats.findIndex(
+          selectedSeat => selectedSeat.row === row && selectedSeat.number === number
+        );
+        if (selectedIndex !== -1) {
+          this.selectedSeats.splice(selectedIndex, 1);
+        }
       }
       this.$emit("pass-seats", this.selectedSeats);
     }
-  }
+  },
+
 };
 </script>
 

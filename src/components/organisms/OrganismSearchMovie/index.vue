@@ -5,7 +5,7 @@
       <span class="open-button">
         <box-icon name="chevron-down" color="white"></box-icon>
       </span>
-      <input type="date" name="" />
+      <input type="day" name="" />
       <span class="open-button">
         <box-icon name="chevron-down" color="white"></box-icon>
       </span>
