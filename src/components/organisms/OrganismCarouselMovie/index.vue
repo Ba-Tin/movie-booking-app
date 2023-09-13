@@ -44,9 +44,6 @@ export default {
         Navigation,
         MoleculeMovieCard
     },
-    mounted() {
-        console.log(this.movies);
-    }
 }
 
 </script>

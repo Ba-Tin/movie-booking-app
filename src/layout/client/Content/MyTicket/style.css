@@ -1,0 +1,86 @@
+/* ticket-right */
+div.container-right {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.container-right h1 {
+  color: var(--bg-orange);
+  font-weight: 700;
+}
+.ticket-filter .button-active {
+  background: var(--bg-orange);
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  color: var(--text-color);
+}
+.ticket-filter a {
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  color: var(--text-color);
+}
+.container-right .item {
+  background: #fff;
+  overflow: hidden;
+  margin: 10px;
+  display: flex;
+  border-radius: 10px;
+}
+.container-right .item-right {
+  margin-right: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.item-right img {
+  width: 14rem;
+}
+.content-ticket p {
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  font-weight: 600;
+  line-height: 3rem;
+  color: var(--bg-color);
+}
+.content-ticket table tr:nth-child(1) td:nth-child(1),
+td:nth-child(2) {
+  border-right: 1px solid;
+}
+.content-ticket table tr td {
+  padding: 0.5rem 1rem;
+}
+.content-ticket table tr td b {
+  font-size: 1.25rem;
+}
+.content-ticket table td span {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.container-right .item-left {
+  display: flex;
+  align-items: center;
+  border-left: 3px dotted var(--bg-color);
+  position: relative;
+}
+.container-right .item-left .up-border,
+.container-right .item-left .down-border {
+  padding: 14px 15px;
+  background-color: var(--bg-color);
+  border-radius: 50%;
+  position: absolute;
+}
+.container-right .item-left .up-border {
+  top: -12px;
+  left: -17px;
+}
+.container-right .item-left .down-border {
+  bottom: -13px;
+  left: -17px;
+}
+.item-left .img-qr {
+  transform: rotate(90deg);
+}

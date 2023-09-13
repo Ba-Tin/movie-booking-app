@@ -2,7 +2,7 @@
     "showtimesmovies": [
         {
             "cinemaSystem": "BHD Star",
-            "id": "GP09",
+            "id": "GP01",
             "logo": "http://movie0706.cybersoft.edu.vn/hinhanh/bhd-star-cineplex.png",
             "cinemaAddressList": [
                 {
@@ -13,44 +13,46 @@
                         {
                             "filmId": 10530,
                             "filmName": "Kẻ Độc Hành",
+                            "filmUrl": "ke-doc-hanh",
                             "image": "http://movie0706.cybersoft.edu.vn/hinhanh/ke-doc-hanh_gp09.jpg",
                             "showTimes": [
                                 {
                                     "id": "46135",
                                     "cinemaName": "Rạp 1",
-                                    "date": "2023-09-06T13:00:00"
+                                    "date": "2023-10-06T13:00:00"
                                 },
                                 {
                                     "id": "46136",
                                     "cinemaName": "Rạp 2",
-                                    "date": "2023-09-08T15:00:00"
+                                    "date": "2023-10-08T15:00:00"
                                 },
                                 {
                                     "id": "46137",
                                     "cinemaName": "Rạp 3",
-                                    "date": "2023-09-09T15:00:00"
+                                    "date": "2023-10-09T15:00:00"
                                 }
                             ]
                         },
                         {
                             "filmId": 10606,
                             "filmName": "Nghề Siêu Dễ",
+                            "filmUrl": "nghe-sieu-de",
                             "image": "http://movie0706.cybersoft.edu.vn/hinhanh/aaaaaaaaaaa_gp09.jpg",
                             "showTimes": [
                                 {
                                     "id": "46135",
                                     "cinemaName": "Rạp 1",
-                                    "date": "2023-09-09T13:00:00"
+                                    "date": "2023-10-09T13:00:00"
                                 },
                                 {
                                     "id": "46136",
                                     "cinemaName": "Rạp 2",
-                                    "date": "2023-09-10T15:00:00"
+                                    "date": "2023-10-10T15:00:00"
                                 },
                                 {
                                     "id": "46137",
                                     "cinemaName": "Rạp 3",
-                                    "date": "2023-09-09T15:00:00"
+                                    "date": "2023-10-09T15:00:00"
                                 }
                             ]
                         }
@@ -64,22 +66,23 @@
                         {
                             "filmId": 10532,
                             "filmName": "Tăng tốc phía em",
+                            "filmUrl": "tang-toc-phia-em",
                             "image": "https://movie0706.cybersoft.edu.vn/hinhanh/tang-toc-phia-em_gp09.jpg",
                             "showTimes": [
                                 {
                                     "id": "46138",
                                     "cinemaName": "Rạp 1",
-                                    "date": "2023-09-06T13:00:00"
+                                    "date": "2023-10-06T13:00:00"
                                 },
                                 {
                                     "id": "46139",
                                     "cinemaName": "Rạp 2",
-                                    "date": "2023-09-05T15:00:00"
+                                    "date": "2023-10-05T15:00:00"
                                 },
                                 {
                                     "id": "46187",
                                     "cinemaName": "Rạp 3",
-                                    "date": "2023-09-07T15:00:00"
+                                    "date": "2023-10-07T15:00:00"
                                 }
                             ]
                         }
@@ -89,7 +92,7 @@
         },
         {
             "cinemaSystem": "CGV",
-            "id": "GP09",
+            "id": "GP02",
             "logo": "http://movie0706.cybersoft.edu.vn/hinhanh/cgv.png",
             "cinemaAddressList": [
                 {
@@ -100,44 +103,46 @@
                         {
                             "filmId": 10531,
                             "filmName": "Nhà Bà Nữ",
+                            "filmUrl": "nha-ba-nu",
                             "image": "http://movie0706.cybersoft.edu.vn/hinhanh/nha-ba-nu_gp09.jpg",
                             "showTimes": [
                                 {
                                     "id": "46535",
                                     "cinemaName": "Rạp 1",
-                                    "date": "2023-08-28T13:00:00"
+                                    "date": "2023-10-28T13:00:00"
                                 },
                                 {
                                     "id": "46636",
                                     "cinemaName": "Rạp 2",
-                                    "date": "2023-09-05T15:00:00"
+                                    "date": "2023-10-05T15:00:00"
                                 },
                                 {
                                     "id": "46737",
                                     "cinemaName": "Rạp 3",
-                                    "date": "2023-09-03T15:00:00"
+                                    "date": "2023-10-03T15:00:00"
                                 }
                             ]
                         },
                         {
                             "filmId": 10533,
                             "filmName": "Phim cực kì hay",
+                            "filmUrl": "phim-cuc-ki-hay",
                             "image": "https://movie0706.cybersoft.edu.vn/hinhanh/aaaaaaaaaaaaaaa_gp09.jpg",
                             "showTimes": [
                                 {
                                     "id": "46835",
                                     "cinemaName": "Rạp 1",
-                                    "date": "2023-09-04T15:00:00"
+                                    "date": "2023-10-04T15:00:00"
                                 },
                                 {
                                     "id": "46936",
                                     "cinemaName": "Rạp 2",
-                                    "date": "2023-09-05T14:00:00"
+                                    "date": "2023-10-05T14:00:00"
                                 },
                                 {
                                     "id": "47137",
                                     "cinemaName": "Rạp 3",
-                                    "date": "2023-09-03T16:00:00"
+                                    "date": "2023-10-03T16:00:00"
                                 }
                             ]
                         }
@@ -151,22 +156,23 @@
                         {
                             "filmId": 10606,
                             "filmName": "Nghề siêu dễ",
+                            "filmUrl": "nghe-sieu-de",
                             "image": "https://movie0706.cybersoft.edu.vn/hinhanh/aaaaaaaaaaa_gp09.jpg",
                             "showTimes": [
                                 {
                                     "id": "48135",
                                     "cinemaName": "Rạp 1",
-                                    "date": "2023-09-02T13:00:00"
+                                    "date": "2023-10-02T13:00:00"
                                 },
                                 {
                                     "id": "49136",
                                     "cinemaName": "Rạp 2",
-                                    "date": "2023-09-05T09:00:00"
+                                    "date": "2023-10-05T09:00:00"
                                 },
                                 {
                                     "id": "56137",
                                     "cinemaName": "Rạp 3",
-                                    "date": "2023-09-03T10:00:00"
+                                    "date": "2023-10-03T10:00:00"
                                 }
                             ]
                         }
@@ -176,7 +182,7 @@
         },
         {
             "cinemaSystem": "CineStar",
-            "id": "GP09",
+            "id": "GP03",
             "logo": "http://movie0706.cybersoft.edu.vn/hinhanh/cinestar.png",
             "cinemaAddressList": [
                 {
@@ -187,12 +193,13 @@
                         {
                             "filmId": 10614,
                             "filmName": "RỪNG SĂN NGƯỜI",
+                            "filmUrl": "rung-san-nguoi",
                             "image": "https://movie0706.cybersoft.edu.vn/hinhanh/rung-san-nguoi_gp09.jpg",
                             "showTimes": [
                                 {
                                     "id": "56131",
                                     "cinemaName": "Rạp 1",
-                                    "date": "2023-09-04T21:30:00"
+                                    "date": "2023-10-04T21:30:00"
                                 },
                                 {
                                     "id": "56132",
@@ -202,29 +209,30 @@
                                 {
                                     "id": "56137",
                                     "cinemaName": "Rạp 3",
-                                    "date": "2023-09-03T23:00:00"
+                                    "date": "2023-10-03T23:00:00"
                                 }
                             ]
                         },
                         {
                             "filmId": 10647,
                             "filmName": "Black Adam",
+                            "filmUrl": "black-adam",
                             "image": "https://movie0706.cybersoft.edu.vn/hinhanh/black-adam_gp09.jpeg",
                             "showTimes": [
                                 {
                                     "id": "56134",
                                     "cinemaName": "Rạp 1",
-                                    "date": "2023-09-06T15:00:00"
+                                    "date": "2023-10-06T15:00:00"
                                 },
                                 {
                                     "id": "58136",
                                     "cinemaName": "Rạp 2",
-                                    "date": "2023-09-07T14:00:00"
+                                    "date": "2023-10-07T14:00:00"
                                 },
                                 {
                                     "id": "56147",
                                     "cinemaName": "Rạp 3",
-                                    "date": "2023-09-03T16:00:00"
+                                    "date": "2023-10-03T16:00:00"
                                 }
                             ]
                         }
@@ -234,7 +242,7 @@
         },
         {
             "cinemaSystem": "Galaxy Cinema",
-            "id": "GP09",
+            "id": "GP04",
             "logo": "http://movie0706.cybersoft.edu.vn/hinhanh/galaxy-cinema.png",
             "cinemaAddressList": [
                 {
@@ -245,12 +253,13 @@
                         {
                             "filmId": 10647,
                             "filmName": "Black Adam",
+                            "filmUrl": "black-adam",
                             "image": "https://movie0706.cybersoft.edu.vn/hinhanh/black-adam_gp09.jpeg",
                             "showTimes": [
                                 {
                                     "id": "56155",
                                     "cinemaName": "Rạp 1",
-                                    "date": "2023-09-04T21:30:00"
+                                    "date": "2023-10-04T21:30:00"
                                 },
                                 {
                                     "id": "56166",
@@ -260,29 +269,30 @@
                                 {
                                     "id": "56130",
                                     "cinemaName": "Rạp 3",
-                                    "date": "2023-09-03T23:00:00"
+                                    "date": "2023-10-03T23:00:00"
                                 }
                             ]
                         },
                         {
                             "filmId": 10649,
                             "filmName": "Captain Marvel 2",
+                            "filmUrl": "captain-marvel-2",
                             "image": "https://movie0706.cybersoft.edu.vn/hinhanh/black-adam_gp09.jpeg",
                             "showTimes": [
                                 {
                                     "id": "56245",
                                     "cinemaName": "Rạp 1",
-                                    "date": "2023-09-04T15:00:00"
+                                    "date": "2023-10-04T15:00:00"
                                 },
                                 {
                                     "id": "56240",
                                     "cinemaName": "Rạp 2",
-                                    "date": "2023-09-05T14:00:00"
+                                    "date": "2023-10-05T14:00:00"
                                 },
                                 {
                                     "id": "66137",
                                     "cinemaName": "Rạp 3",
-                                    "date": "2023-09-03T16:00:00"
+                                    "date": "2023-10-03T16:00:00"
                                 }
                             ]
                         }
@@ -292,7 +302,7 @@
         },
         {
             "cinemaSystem": "Lotte Cinema",
-            "id": "GP09",
+            "id": "GP05",
             "logo": "http://movie0706.cybersoft.edu.vn/hinhanh/lotte-cinema.png",
             "cinemaAddressList": [
                 {
@@ -303,12 +313,13 @@
                         {
                             "filmId": 10647,
                             "filmName": "Black Adam",
+                            "filmUrl": "black-adam",
                             "image": "https://movie0706.cybersoft.edu.vn/hinhanh/black-adam_gp09.jpeg",
                             "showTimes": [
                                 {
                                     "id": "476135",
                                     "cinemaName": "Rạp 1",
-                                    "date": "2023-09-04T21:30:00"
+                                    "date": "2023-10-04T21:30:00"
                                 },
                                 {
                                     "id": "86136",
@@ -318,29 +329,30 @@
                                 {
                                     "id": "96137",
                                     "cinemaName": "Rạp 3",
-                                    "date": "2023-09-03T23:00:00"
+                                    "date": "2023-10-03T23:00:00"
                                 }
                             ]
                         },
                         {
                             "filmId": 10649,
                             "filmName": "Captain Marvel 2",
+                            "filmUrl": "captain-marvel-2",
                             "image": "https://movie0706.cybersoft.edu.vn/hinhanh/black-adam_gp09.jpeg",
                             "showTimes": [
                                 {
                                     "id": "16135",
                                     "cinemaName": "Rạp 1",
-                                    "date": "2023-09-04T15:00:00"
+                                    "date": "2023-10-04T15:00:00"
                                 },
                                 {
                                     "id": "26136",
                                     "cinemaName": "Rạp 2",
-                                    "date": "2023-09-05T14:00:00"
+                                    "date": "2023-10-05T14:00:00"
                                 },
                                 {
                                     "id": "36137",
                                     "cinemaName": "Rạp 3",
-                                    "date": "2023-09-03T16:00:00"
+                                    "date": "2023-10-03T16:00:00"
                                 }
                             ]
                         }
@@ -350,7 +362,7 @@
         },
         {
             "cinemaSystem": "MegaGS",
-            "id": "GP09",
+            "id": "GP06",
             "logo": "http://movie0706.cybersoft.edu.vn/hinhanh/megags.png",
             "cinemaAddressList": [
                 {
@@ -361,12 +373,13 @@
                         {
                             "filmId": 10647,
                             "filmName": "Black Adam",
+                            "filmUrl": "black-adam",
                             "image": "https://movie0706.cybersoft.edu.vn/hinhanh/black-adam_gp09.jpeg",
                             "showTimes": [
                                 {
                                     "id": "47455",
                                     "cinemaName": "Rạp 1",
-                                    "date": "2023-09-04T21:30:00"
+                                    "date": "2023-10-04T21:30:00"
                                 },
                                 {
                                     "id": "47456",
@@ -376,29 +389,30 @@
                                 {
                                     "id": "47457",
                                     "cinemaName": "Rạp 3",
-                                    "date": "2023-09-03T23:00:00"
+                                    "date": "2023-10-03T23:00:00"
                                 }
                             ]
                         },
                         {
                             "filmId": 10649,
                             "filmName": "Captain Marvel 2",
+                            "filmUrl": "captain-marvel-2",
                             "image": "https://movie0706.cybersoft.edu.vn/hinhanh/black-adam_gp09.jpeg",
                             "showTimes": [
                                 {
                                     "id": "45453",
                                     "cinemaName": "Rạp 1",
-                                    "date": "2023-09-04T15:00:00"
+                                    "date": "2023-10-04T15:00:00"
                                 },
                                 {
                                     "id": "45454",
                                     "cinemaName": "Rạp 2",
-                                    "date": "2023-09-05T14:00:00"
+                                    "date": "2023-10-05T14:00:00"
                                 },
                                 {
                                     "id": "45455",
                                     "cinemaName": "Rạp 3",
-                                    "date": "2023-09-03T16:00:00"
+                                    "date": "2023-10-03T16:00:00"
                                 }
                             ]
                         }
@@ -625,7 +639,7 @@
             "image": "https://movie0706.cybersoft.edu.vn/hinhanh/phim-chu-a_gp09.jpg",
             "description": "a",
             "groupId": "GP09",
-            "startDate": "2023-09-29T00:00:00",
+            "startDate": "2023-10-29T00:00:00",
             "rating": 10
         },
         {
@@ -682,6 +696,233 @@
             "groupId": "GP09",
             "startDate": "2023-10-05T00:00:00",
             "rating": 10
+        }
+    ],
+    "seats": [
+        {
+            "row": "A",
+            "seat": [
+                {
+                    "id": 1,
+                    "number": 1,
+                    "status": "available"
+                },
+                {
+                    "id": 2,
+                    "number": 2,
+                    "status": "available"
+                },
+                {
+                    "id": 3,
+                    "number": 3,
+                    "status": "available"
+                },
+                {
+                    "id": 4,
+                    "number": 4,
+                    "status": "available"
+                },
+                {
+                    "id": 5,
+                    "number": 5,
+                    "status": "available"
+                },
+                {
+                    "id": 6,
+                    "number": 6,
+                    "status": "available"
+                },
+                {
+                    "id": 7,
+                    "number": 7,
+                    "status": "available"
+                },
+                {
+                    "id": 8,
+                    "number": 8,
+                    "status": "available"
+                }
+            ]
+        },
+        {
+            "row": "B",
+            "seat": [
+                {
+                    "id": 9,
+                    "number": 1,
+                    "status": "available"
+                },
+                {
+                    "id": 10,
+                    "number": 2,
+                    "status": "available"
+                },
+                {
+                    "id": 11,
+                    "number": 3,
+                    "status": "available"
+                },
+                {
+                    "id": 12,
+                    "number": 4,
+                    "status": "available"
+                },
+                {
+                    "id": 13,
+                    "number": 5,
+                    "status": "available"
+                },
+                {
+                    "id": 14,
+                    "number": 6,
+                    "status": "available"
+                },
+                {
+                    "id": 15,
+                    "number": 7,
+                    "status": "available"
+                },
+                {
+                    "id": 16,
+                    "number": 8,
+                    "status": "available"
+                }
+            ]
+        },
+        {
+            "row": "C",
+            "seat": [
+                {
+                    "id": 17,
+                    "number": 1,
+                    "status": "available"
+                },
+                {
+                    "id": 18,
+                    "number": 2,
+                    "status": "available"
+                },
+                {
+                    "id": 19,
+                    "number": 3,
+                    "status": "available"
+                },
+                {
+                    "id": 20,
+                    "number": 4,
+                    "status": "available"
+                },
+                {
+                    "id": 21,
+                    "number": 5,
+                    "status": "available"
+                },
+                {
+                    "id": 22,
+                    "number": 6,
+                    "status": "available"
+                },
+                {
+                    "id": 23,
+                    "number": 7,
+                    "status": "available"
+                },
+                {
+                    "id": 24,
+                    "number": 8,
+                    "status": "available"
+                }
+            ]
+        },
+        {
+            "row": "D",
+            "seat": [
+                {
+                    "id": 25,
+                    "number": 1,
+                    "status": "available"
+                },
+                {
+                    "id": 26,
+                    "number": 2,
+                    "status": "available"
+                },
+                {
+                    "id": 27,
+                    "number": 3,
+                    "status": "available"
+                },
+                {
+                    "id": 28,
+                    "number": 4,
+                    "status": "available"
+                },
+                {
+                    "id": 29,
+                    "number": 5,
+                    "status": "available"
+                },
+                {
+                    "id": 30,
+                    "number": 6,
+                    "status": "available"
+                },
+                {
+                    "id": 31,
+                    "number": 7,
+                    "status": "available"
+                },
+                {
+                    "id": 32,
+                    "number": 8,
+                    "status": "available"
+                }
+            ]
+        },
+        {
+            "row": "E",
+            "seat": [
+                {
+                    "id": 33,
+                    "number": 1,
+                    "status": "available"
+                },
+                {
+                    "id": 34,
+                    "number": 2,
+                    "status": "available"
+                },
+                {
+                    "id": 35,
+                    "number": 3,
+                    "status": "available"
+                },
+                {
+                    "id": 36,
+                    "number": 4,
+                    "status": "available"
+                },
+                {
+                    "id": 37,
+                    "number": 5,
+                    "status": "available"
+                },
+                {
+                    "id": 38,
+                    "number": 6,
+                    "status": "available"
+                },
+                {
+                    "id": 39,
+                    "number": 7,
+                    "status": "available"
+                },
+                {
+                    "id": 40,
+                    "number": 8,
+                    "status": "available"
+                }
+            ]
         }
     ]
 }

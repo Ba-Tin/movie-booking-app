@@ -2,9 +2,18 @@ import { createRouter, createWebHistory } from "vue-router"
 import MainAdmin from "./layout/admin/MainAdmin/MainAdmin.vue"
 import MainClient from "./layout/client/MainClient/MainClient.vue"
 import { Cinema, User, Schedule, MovieAdmin, HomeAdmin, CinemaComplex } from "./layout/admin/Content"
-import { MovieDetail, ScheduleMovie, NewFeed } from "./layout/client/Content";
+import { NewFeed } from "./layout/client/Content";
 import { MoleculeNotFound } from "@/components/molecules"
 import { OrganismsModalLogin } from "@/components/organisms"
+import { auth } from "@/configs/firebase.js";
+
+
+const requireAuth = (to, from, next) => {
+    const user = auth.currentUser;
+    if (!user) next({ name: "Login", params: {} })
+    else next();
+
+}
 
 const routes = [
     {
@@ -52,12 +61,26 @@ const routes = [
                 component: () => import(/* webpackChunkName: "movies" */ "@/layout/client/Content/Movies"),
             },
             {
-                path: "/movies/:id",
-                component: MovieDetail,
+                path: "/book-ticket/:filmUrl",
+                name: "Booking",
+                component: () => import(/* webpackChunkName: "booking" */ "@/layout/client/Content/BookTicket"),
+                beforeEnter: requireAuth
+            },
+            {
+                path: "/movies/:filmUrl",
+                component: () => import(/* webpackChunkName: "moviedetail" */ "@/layout/client/Content/MovieDetail"),
             },
             {
                 path: "/schedulemovie",
-                component: ScheduleMovie,
+                component: () => import(/* webpackChunkName: "schedule" */ "@/layout/client/Content/ScheduleMovie"),
+            },
+            {
+                path: "/myticket",
+                name: "MyTicket",
+                component: () => import(/* webpackChunkName: "myticket" */ "@/layout/client/Content/MyTicket"),
+                beforeEnter: requireAuth
+
+
             },
             {
                 path: "/newfeed",
@@ -68,6 +91,7 @@ const routes = [
     },
     {
         path: "/login",
+        name: "Login",
         component: OrganismsModalLogin
     },
     {

@@ -7,4 +7,7 @@ export default {
 
     //state showTimes-Movie
     showTimeMovie: [],
+
+    // seat
+    seat: [],
 }

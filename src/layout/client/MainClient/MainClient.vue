@@ -8,21 +8,17 @@
         <div class="col-sm-10 main-client">
             <div class="">
                 <router-view/>
-               
             </div>
-           <FooterClient/>
         </div>
     </div>
    
 </template>
 <script>
 import MenuClient from "../MenuClient/MenuClient.vue";
-import FooterClient from "../Footer/FooterClient.vue";
 import "./style.css"
 export default {
     components: {
         MenuClient,
-        FooterClient
     }
 }
 </script>

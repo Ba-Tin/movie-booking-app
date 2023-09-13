@@ -13,16 +13,15 @@ export default {
             console.error('Error', error);
         }
     },
-    //get Movie By id
-    async getMovieById({ commit }, id) {
+    // get Movie By id
+    async getMovieById({ commit }, filmUrl) {
         try {
-            const response = await axios.get(`${BASE_URL}/movies/${id}`);
-            commit('setMovieDetail', response?.data);
+            const response = await axios.get(`${BASE_URL}/movies?filmUrl=${filmUrl}`);
+            commit('setMovieDetail', response?.data[0]);
         } catch (error) {
             console.error('Error', error);
         }
     },
-
 
     //getAllCinema_and_showtime
     async getAllShowTimes({ commit }) {
@@ -32,6 +31,14 @@ export default {
         } catch (error) {
             console.error('Error', error);
         }
-
+    },
+    // get all seat
+    async getAllSeat({ commit }) {
+        try {
+            const response = await axios.get(`${BASE_URL}/seats`);
+            commit('setSeat', response?.data);
+        } catch (error) {
+            console.error('Error', error);
+        }
     }
 }

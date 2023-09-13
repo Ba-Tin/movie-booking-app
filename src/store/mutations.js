@@ -13,5 +13,10 @@ export default {
     //showTimeMovie
     setShowTimeMoves(state, movie) {
         state.showTimeMovie = movie;
+    },
+
+    // seat
+    setSeat(state, seat) {
+        state.seat = seat;
     }
 }

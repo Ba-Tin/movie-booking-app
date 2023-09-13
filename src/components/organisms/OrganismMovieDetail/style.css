@@ -55,3 +55,39 @@
   font-size: 2rem;
   margin-right: 2px;
 }
+
+/* showtime */
+
+/* information-movie */
+.information-movie {
+  padding: 4rem;
+}
+.profile-movie {
+  display: flex;
+}
+.profile-title li {
+  display: flex;
+  font-size: 1.5rem;
+  color: var(--text-color);
+  width: 26rem;
+  margin-bottom: 1.5rem;
+}
+.profile-title li b {
+  margin-right: 2rem;
+  width: 10rem;
+}
+.profile-content h3,
+p {
+  color: var(--text-color);
+}
+.profile-content p {
+  font-size: 1.5rem;
+}
+.trailer-movie {
+  margin-top: 3rem;
+}
+.trailer-movie h1 {
+  color: var(--text-color);
+  padding: 2rem 0;
+}
+/* end information-movie */

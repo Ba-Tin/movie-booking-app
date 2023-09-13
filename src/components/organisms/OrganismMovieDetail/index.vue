@@ -1,4 +1,5 @@
 <template lang="">
+  <!-- movie detail -->
    <div class="movie-banner">
       <img :src="movieDetail?.image" alt="" />
       <div class="movie-detail">
@@ -23,41 +24,79 @@
             
             />
           <div class="rating-icon">
-           <span class="movie-rating-number">{{movieData?.rating === 0 ? 'Chưa có đánh giá' : movieData?.rating}}</span>
-                <span class="movie-rating-icon">
-                  <box-icon
-                    v-for="index in 5"
-                    :key="index"
-                    :name="['bx', 'bxs-star', { 'text-warning': index <= movieData?.rating, 'text-secondary': index > movieData?.rating }]"
-                  ></box-icon>
-                </span>
+            <span class="movie-rating-icon">
+                <box-icon
+                  v-for="index in 5"
+                  :key="index"
+                  name="star"
+                  type="solid"
+                  color="orange"
+                ></box-icon>
+              </span>
           </div>
         </div>
       </div>
+   </div>
+   <!-- showtime -->
+     <div class="showtimes-movies">
+      <div class="title">
+         <p
+            class="tab"
+            :class="{ 'active-title': tab === activeTab }"
+            v-for="(tab, index) in tabs"
+            :key="index"
+            @click="changeTab(tab)"
+          >
+            {{ tab }}
+          </p>
+      </div>
+      <!-- showtimes-cinema -->
+      <div v-if="activeTab === 'Lịch chiếu'">
+        <MoleculeSchedule :movie="movieDetail"/>
+      </div>
+      <!-- end showtimes-cinema -->
+
+      <!-- information movie -->
+         <div v-else-if="activeTab === 'Thông tin'">
+           <MoleculeDescription :description="movieDetail"/>
+          </div>
+      <!-- end information movie -->
+
+
     </div>
-   
+
 </template>
 <script>
-import { mapActions, mapState } from 'vuex';
+import { mapState, mapActions } from 'vuex';
 
-import { getFormattedDate } from "../../../utils/dateTime";
+import { getFormattedDate } from "@/utils/dateTime";
 import CircleProgress from "vue3-circle-progress";
-
+import { MoleculeSchedule, MoleculeDescription } from "@/components/molecules"
 import './style.css'
 export default {
+  data() {
+    return {
+      tabs: ['Lịch chiếu', 'Thông tin'],
+      activeTab: 'Lịch chiếu',
+    };
+  },
+
   components: {
-    CircleProgress
+    CircleProgress, MoleculeSchedule, MoleculeDescription
   },
   computed: {
-    ...mapState(['movieDetail'])
+    ...mapState(['movieDetail']),
   },
   methods: {
+    getFormattedDate,
     ...mapActions(['getMovieById']),
-    getFormattedDate
+    changeTab(tab) {
+      this.activeTab = tab;
+    },
   },
-  created() {
-    this.getMovieById(this.$route.params.id)
-    console.log();
+  mounted() {
+    this.getMovieById(this.$route.params.filmUrl)
+    console.log("movieDetail", this.movieDetail);
   }
 }
 </script>

@@ -21,7 +21,7 @@
           </div>
         </a>
             <!-- img slide -->
-        <router-link :to="'/movies/' + movieData.id">
+        <router-link :to="'/movies/' + movieData?.filmUrl">
           <div class="carousel-img">
             <img :src="movieData?.image" class="d-block" alt="..." />
           </div>
@@ -30,7 +30,7 @@
           <p class="movie-name">{{movieData?.filmName}}</p>
           <p class="movie-timer">130p - 3IMDb</p>
           <div class="buy-ticket">
-            <button class="button">Mua vé</button>
+            <AtomButton typeName="button" className="button" @click="handleBookTicket(movieData)">Mua vé</AtomButton>
           </div>
         </div>
       </div>
@@ -38,12 +38,32 @@
 </template>
 <script>
 import "./style.css";
-
+import { AtomButton } from "@/components/atoms";
+import { useUser } from "@/mixin/User/useUser";
+import { useRouter } from 'vue-router';
 
 export default {
   props: {
     movieData: { type: Object, required: true }
   },
+  setup() {
+    const router = useRouter();
+    const { getUser } = useUser();
+    const user = getUser();
+    const handleBookTicket = (movieData) => {
+      if (user) {
+        router.push({ name: 'Booking', params: { filmUrl: movieData.filmUrl } })
+      } else {
+        router.push({ name: 'Login' });
+      }
+    }
+
+    return { user, handleBookTicket }
+  },
+  components: {
+    AtomButton
+  },
+
 }
 </script>
 <style lang="">

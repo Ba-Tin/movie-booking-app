@@ -33,7 +33,7 @@
   margin-right: 1rem;
   opacity: 0.7;
 }
-.local-detail.active-movie {
+.local-detail.active-address {
   opacity: 1;
 }
 .local-cinema {
@@ -65,10 +65,12 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.date-cinema {
-  padding: 0 1rem;
+.date-container {
   border-right: 2px solid var(--text);
   border-left: 2px solid var(--text);
+}
+.date-cinema {
+  padding: 0 1rem;
 }
 .date-detail {
   border-bottom: 1px solid #84ba5b;

@@ -6,6 +6,10 @@ export { default as MoleculeSchedule } from "./MoleculeSchedule";
 export { default as MoleculeNotFound } from "./MoleculeNotFound";
 export { default as MoleculeRegister } from "./MoleculeRegister";
 export { default as MoleculeLogin } from "./MoleculeLogin";
+export { default as MoleculeDescription } from "./MoleculeDescription";
+export { default as MoleculeSeat } from "./MoleculeSeat";
+
+
 
 
 

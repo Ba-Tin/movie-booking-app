@@ -1,0 +1,254 @@
+.booking-ticket {
+  padding: 2rem 1.5rem;
+}
+
+.booking-ticket .title {
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px dashed var(--bg-orange);
+}
+
+.booking-ticket .title h1 {
+  color: var(--bg-orange);
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: 300;
+}
+
+.booking-ticket .title img {
+  width: 7rem;
+}
+
+.booking-container {
+  background: var(--text-color);
+  border-radius: 2rem;
+  padding: 1rem 2rem 4rem 2rem;
+  margin-top: 3rem;
+}
+
+.booking-container .movie-name {
+  display: flex;
+  gap: 2rem;
+  border-bottom: 3px solid var(--bg-color);
+  padding-bottom: 1rem;
+}
+
+.movie-name .movie-img img {
+  width: 14rem;
+  border-radius: 1rem;
+}
+
+.movie-name .movie-infor h3 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.movie-name .movie-infor span {
+  font-weight: 700;
+  background: var(--bg-orange);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: var(--text-color);
+  font-size: 1.5rem;
+  margin-right: 2rem;
+}
+
+.movie-name .movie-infor .review-movie {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.movie-infor .review-movie p {
+  font-size: 2rem;
+  color: var(--bg-color);
+}
+
+.movie-infor .review-movie .rate-icon {
+  font-size: 1.5rem;
+  color: var(--bg-orange);
+}
+
+.rate-icon {
+  padding-top: 0.5rem;
+  margin-left: 2rem;
+}
+
+.cinema-infor {
+  padding: 2rem 0;
+  border-bottom: 8px solid var(--bg-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+.cinema-infor .ciname-logo img {
+  width: 6rem;
+}
+
+.ciname-logo {
+  display: flex;
+  gap: 2rem;
+}
+
+.ciname-logo p {
+  font-size: 2rem;
+  color: var(--bg-orange);
+}
+
+.time-seat {
+  padding-right: 10rem;
+}
+
+.time-seat p {
+  color: var(--text);
+  font-size: 2rem;
+}
+
+.book-seat {
+  padding: 2rem 8rem;
+}
+
+.book-seat .screen {
+  background-color: #0e0404;
+  width: 100%;
+  height: 24rem;
+  color: var(--text-color);
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 4rem;
+}
+
+.book-seat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+}
+
+.row .seat img {
+  width: 4rem;
+  height: 4rem;
+  margin-left: 0.5rem;
+}
+
+.seat {
+  position: relative;
+  cursor: pointer;
+}
+
+.seat .seat-name {
+  position: absolute;
+  top: 14%;
+  left: 35%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--bg-color);
+}
+
+.seat:nth-of-type(2) {
+  margin-right: 18px;
+}
+
+.seat:nth-last-of-type(2) {
+  margin-left: 18px;
+}
+
+.seat-infor {
+  display: flex;
+  gap: 8rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.seat-infor p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--bg-color);
+}
+.seat-infor .seat-img img {
+  width: 4rem;
+  height: 4rem;
+}
+/*end book tikcet */
+
+/* ticket infor */
+/* ticket infor */
+.ticket-infor {
+  padding: 2rem 1.5rem;
+}
+
+.ticket-detail {
+  display: flex;
+  justify-content: space-between;
+  background: var(--text-color);
+  border-radius: 2rem;
+  padding: 2rem;
+}
+.cinema-name table {
+  text-align: left;
+}
+.cinema-name table tr {
+  line-height: 3rem;
+}
+.cinema-name table tr td span {
+  margin-right: 1rem;
+}
+.cinema-name table th p {
+  color: var(--bg-orange);
+}
+.select-seat {
+  width: 11rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.popcorn-combo {
+  padding: 0rem 2rem;
+  border-right: 1px dashed var(--bg-color);
+  border-left: 1px dashed var(--bg-color);
+}
+
+.popcorn-combo h3 {
+  font-weight: 400;
+}
+.popcorn-combo select {
+  border: 1px solid var(--bg-color);
+  margin-top: 2rem;
+  padding: 0.5rem 0;
+  border-radius: 5px;
+}
+.total-ticket {
+  position: relative;
+  padding: 0 2rem;
+  border-right: 1px dashed;
+}
+.total-ticket table {
+  text-align: left;
+}
+.total-ticket table tr {
+  line-height: 4rem;
+}
+.total-ticket tr td span {
+  margin-right: 2rem;
+}
+.line-total {
+  position: absolute;
+  width: 70%;
+  top: 8.5rem;
+  height: 0.1rem;
+  background: var(--bg-color);
+}
+.ticket-btn {
+  padding: 2rem;
+}
+.ticket-btn .btn-ticket {
+  padding: 2rem !important;
+}
+/* end ticket infor */

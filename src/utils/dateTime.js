@@ -37,7 +37,7 @@ export const getFormattedDate = (d) => {
     // const hours = (date.getHours() - 7).toString().padStart(2, '0');
     // const minutes = date.getMinutes().toString().padStart(2, '0');
     // const seconds = date.getSeconds().toString().padStart(2, '0');
-    const timeStart = `${year}-${month}-${day}`;
+    const timeStart = `${day}-${month}-${year} `;
     // const timeStart = null;
     return timeStart
 }
